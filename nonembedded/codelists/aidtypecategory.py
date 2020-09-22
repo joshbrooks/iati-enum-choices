@@ -9,44 +9,42 @@ class AidTypeCategory(models.TextChoices):
 
     BUDGET_SUPPORT = (
         "A",
-        pgettext_lazy("IATI codelist AidType-category", "Budget support"),
+        pgettext_lazy("AidType-category", "Budget support"),
     )
     CORE_CONTRIBUTIONS_AND_POOLED_PROGRAMMES_AND_FUNDS = (
         "B",
         pgettext_lazy(
-            "IATI codelist AidType-category",
+            "AidType-category",
             "Core contributions and pooled programmes and funds",
         ),
     )
     PROJECT_TYPE_INTERVENTIONS = (
         "C",
-        pgettext_lazy("IATI codelist AidType-category", "Project-type interventions"),
+        pgettext_lazy("AidType-category", "Project-type interventions"),
     )
     EXPERTS_AND_OTHER_TECHNICAL_ASSISTANCE = (
         "D",
-        pgettext_lazy(
-            "IATI codelist AidType-category", "Experts and other technical assistance"
-        ),
+        pgettext_lazy("AidType-category", "Experts and other technical assistance"),
     )
     SCHOLARSHIPS_AND_STUDENT_COSTS_IN_DONOR_COUNTRIES = (
         "E",
         pgettext_lazy(
-            "IATI codelist AidType-category",
+            "AidType-category",
             "Scholarships and student costs in donor countries",
         ),
     )
     DEBT_RELIEF = (
         "F",
-        pgettext_lazy("IATI codelist AidType-category", "Debt relief"),
+        pgettext_lazy("AidType-category", "Debt relief"),
     )
     ADMINISTRATIVE_COSTS_NOT_INCLUDED_ELSEWHERE = (
         "G",
         pgettext_lazy(
-            "IATI codelist AidType-category",
+            "AidType-category",
             "Administrative costs not included elsewhere",
         ),
     )
     OTHER_IN_DONOR_EXPENDITURES = (
         "H",
-        pgettext_lazy("IATI codelist AidType-category", "Other in-donor expenditures"),
+        pgettext_lazy("AidType-category", "Other in-donor expenditures"),
     )

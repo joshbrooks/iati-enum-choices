@@ -9,9 +9,9 @@ class HumanitarianScopeType(models.IntegerChoices):
 
     EMERGENCY = (
         1,
-        pgettext_lazy("IATI codelist HumanitarianScopeType", "Emergency"),
+        pgettext_lazy("HumanitarianScopeType", "Emergency"),
     )
     APPEAL = (
         2,
-        pgettext_lazy("IATI codelist HumanitarianScopeType", "Appeal"),
+        pgettext_lazy("HumanitarianScopeType", "Appeal"),
     )

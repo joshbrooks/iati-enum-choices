@@ -10,28 +10,28 @@ class OrganisationRoleDescription(models.IntegerChoices):
     FUNDING = (
         1,
         pgettext_lazy(
-            "IATI codelist OrganisationRole description",
+            "OrganisationRole description",
             "The government or organisation which provides funds to the activity. ",
         ),
     )
     ACCOUNTABLE = (
         2,
         pgettext_lazy(
-            "IATI codelist OrganisationRole description",
+            "OrganisationRole description",
             "An organisation responsible for oversight of the activity and its outcomes",
         ),
     )
     EXTENDING = (
         3,
         pgettext_lazy(
-            "IATI codelist OrganisationRole description",
+            "OrganisationRole description",
             "An organisation that manages the budget and direction of an activity on behalf of the funding organisation",
         ),
     )
     IMPLEMENTING = (
         4,
         pgettext_lazy(
-            "IATI codelist OrganisationRole description",
+            "OrganisationRole description",
             "The organisation that physically carries out the activity or intervention. ",
         ),
     )

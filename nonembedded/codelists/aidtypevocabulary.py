@@ -9,17 +9,17 @@ class AidTypeVocabulary(models.IntegerChoices):
 
     OECD_DAC = (
         1,
-        pgettext_lazy("IATI codelist AidTypeVocabulary", "OECD DAC"),
+        pgettext_lazy("AidTypeVocabulary", "OECD DAC"),
     )
     EARMARKING_CATEGORY = (
         2,
-        pgettext_lazy("IATI codelist AidTypeVocabulary", "Earmarking Category"),
+        pgettext_lazy("AidTypeVocabulary", "Earmarking Category"),
     )
     EARMARKING_MODALITY = (
         3,
-        pgettext_lazy("IATI codelist AidTypeVocabulary", "Earmarking Modality"),
+        pgettext_lazy("AidTypeVocabulary", "Earmarking Modality"),
     )
     CASH_AND_VOUCHER_MODALITIES = (
         4,
-        pgettext_lazy("IATI codelist AidTypeVocabulary", "Cash and Voucher Modalities"),
+        pgettext_lazy("AidTypeVocabulary", "Cash and Voucher Modalities"),
     )

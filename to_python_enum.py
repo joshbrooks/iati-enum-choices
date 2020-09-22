@@ -94,9 +94,9 @@ class XmlElementAsEnum:
                 and not label_text_value.startswith('"')
                 and not label_text_value.endswith('"')
             ):
-                label = f', pgettext_lazy("IATI codelist {self.category}{suffix}", "{label_text_value}")'
+                label = f', pgettext_lazy("{self.category}", "{label_text_value}")'
             else:
-                label = f', pgettext_lazy("IATI codelist {self.category}{suffix}", """{label_text_value}""")'
+                label = f', pgettext_lazy("{self.category}", """{label_text_value}""")'
 
         except AttributeError:
             # In some circumstances (ie we're generating a select for descriptions only)

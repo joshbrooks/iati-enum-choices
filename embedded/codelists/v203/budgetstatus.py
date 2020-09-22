@@ -9,9 +9,9 @@ class BudgetStatus(models.IntegerChoices):
 
     INDICATIVE = (
         1,
-        pgettext_lazy("IATI codelist BudgetStatus", "Indicative"),
+        pgettext_lazy("BudgetStatus", "Indicative"),
     )
     COMMITTED = (
         2,
-        pgettext_lazy("IATI codelist BudgetStatus", "Committed"),
+        pgettext_lazy("BudgetStatus", "Committed"),
     )

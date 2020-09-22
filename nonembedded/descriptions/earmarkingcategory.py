@@ -10,28 +10,28 @@ class EarmarkingCategoryDescription(models.IntegerChoices):
     UNEARMARKED = (
         1,
         pgettext_lazy(
-            "IATI codelist EarmarkingCategory description",
+            "EarmarkingCategory description",
             "Any or all of the Earmarking Modality codes A,B or C.",
         ),
     )
     SOFTLY_EARMARKED = (
         2,
         pgettext_lazy(
-            "IATI codelist EarmarkingCategory description",
+            "EarmarkingCategory description",
             "Any or all of the Earmarking Modality codes D,E or F.",
         ),
     )
     EARMARKED = (
         3,
         pgettext_lazy(
-            "IATI codelist EarmarkingCategory description",
+            "EarmarkingCategory description",
             "Any or all of the Earmarking Modality codes G or H.",
         ),
     )
     TIGHTLY_EARMARKED = (
         4,
         pgettext_lazy(
-            "IATI codelist EarmarkingCategory description",
+            "EarmarkingCategory description",
             "Any or all of the Earmarking Modality codes I,J or K.",
         ),
     )

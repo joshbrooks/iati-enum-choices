@@ -9,5 +9,5 @@ class ResultVocabulary(models.IntegerChoices):
 
     REPORTING_ORGANISATION = (
         99,
-        pgettext_lazy("IATI codelist ResultVocabulary", "Reporting Organisation"),
+        pgettext_lazy("ResultVocabulary", "Reporting Organisation"),
     )

@@ -9,15 +9,13 @@ class GazetteerAgency(models.IntegerChoices):
 
     GEONAMES_ORG = (
         1,
-        pgettext_lazy("IATI codelist GazetteerAgency", "Geonames.org"),
+        pgettext_lazy("GazetteerAgency", "Geonames.org"),
     )
     NATIONAL_GEOSPATIAL_INTELLIGENCE_AGENCY = (
         2,
-        pgettext_lazy(
-            "IATI codelist GazetteerAgency", "National Geospatial-Intelligence Agency"
-        ),
+        pgettext_lazy("GazetteerAgency", "National Geospatial-Intelligence Agency"),
     )
     OPEN_STREET_MAP = (
         3,
-        pgettext_lazy("IATI codelist GazetteerAgency", "Open Street Map"),
+        pgettext_lazy("GazetteerAgency", "Open Street Map"),
     )

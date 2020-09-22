@@ -9,37 +9,37 @@ class LocationTypeCategory(models.TextChoices):
 
     ADMINISTRATIVE_REGION = (
         "A",
-        pgettext_lazy("IATI codelist LocationType-category", "Administrative Region"),
+        pgettext_lazy("LocationType-category", "Administrative Region"),
     )
     HYDROGRAPHIC = (
         "H",
-        pgettext_lazy("IATI codelist LocationType-category", "Hydrographic"),
+        pgettext_lazy("LocationType-category", "Hydrographic"),
     )
     AREA = (
         "L",
-        pgettext_lazy("IATI codelist LocationType-category", "Area"),
+        pgettext_lazy("LocationType-category", "Area"),
     )
     POPULATED_PLACE = (
         "P",
-        pgettext_lazy("IATI codelist LocationType-category", "Populated Place"),
+        pgettext_lazy("LocationType-category", "Populated Place"),
     )
     STREETS_HIGHWAYS_ROADS = (
         "R",
-        pgettext_lazy("IATI codelist LocationType-category", "Streets/Highways/Roads"),
+        pgettext_lazy("LocationType-category", "Streets/Highways/Roads"),
     )
     SPOT_FEATURES = (
         "S",
-        pgettext_lazy("IATI codelist LocationType-category", "Spot Features"),
+        pgettext_lazy("LocationType-category", "Spot Features"),
     )
     HYPSOGRAPHIC = (
         "T",
-        pgettext_lazy("IATI codelist LocationType-category", "Hypsographic"),
+        pgettext_lazy("LocationType-category", "Hypsographic"),
     )
     UNDERSEA = (
         "U",
-        pgettext_lazy("IATI codelist LocationType-category", "Undersea"),
+        pgettext_lazy("LocationType-category", "Undersea"),
     )
     VEGETATION = (
         "V",
-        pgettext_lazy("IATI codelist LocationType-category", "Vegetation"),
+        pgettext_lazy("LocationType-category", "Vegetation"),
     )

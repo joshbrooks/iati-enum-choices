@@ -10,14 +10,14 @@ class BudgetStatusDescription(models.IntegerChoices):
     INDICATIVE = (
         1,
         pgettext_lazy(
-            "IATI codelist BudgetStatus description",
+            "BudgetStatus description",
             "A non-binding estimate for the described budget.",
         ),
     )
     COMMITTED = (
         2,
         pgettext_lazy(
-            "IATI codelist BudgetStatus description",
+            "BudgetStatus description",
             "A binding agreement for the described budget.",
         ),
     )

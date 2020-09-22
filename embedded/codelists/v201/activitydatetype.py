@@ -9,17 +9,17 @@ class ActivityDateType(models.IntegerChoices):
 
     PLANNED_START = (
         1,
-        pgettext_lazy("IATI codelist ActivityDateType", "Planned start"),
+        pgettext_lazy("ActivityDateType", "Planned start"),
     )
     ACTUAL_START = (
         2,
-        pgettext_lazy("IATI codelist ActivityDateType", "Actual start"),
+        pgettext_lazy("ActivityDateType", "Actual start"),
     )
     PLANNED_END = (
         3,
-        pgettext_lazy("IATI codelist ActivityDateType", "Planned End"),
+        pgettext_lazy("ActivityDateType", "Planned End"),
     )
     ACTUAL_END = (
         4,
-        pgettext_lazy("IATI codelist ActivityDateType", "Actual end"),
+        pgettext_lazy("ActivityDateType", "Actual end"),
     )

@@ -9,17 +9,17 @@ class EarmarkingCategory(models.IntegerChoices):
 
     UNEARMARKED = (
         1,
-        pgettext_lazy("IATI codelist EarmarkingCategory", "Unearmarked"),
+        pgettext_lazy("EarmarkingCategory", "Unearmarked"),
     )
     SOFTLY_EARMARKED = (
         2,
-        pgettext_lazy("IATI codelist EarmarkingCategory", "Softly Earmarked"),
+        pgettext_lazy("EarmarkingCategory", "Softly Earmarked"),
     )
     EARMARKED = (
         3,
-        pgettext_lazy("IATI codelist EarmarkingCategory", "Earmarked"),
+        pgettext_lazy("EarmarkingCategory", "Earmarked"),
     )
     TIGHTLY_EARMARKED = (
         4,
-        pgettext_lazy("IATI codelist EarmarkingCategory", "Tightly Earmarked"),
+        pgettext_lazy("EarmarkingCategory", "Tightly Earmarked"),
     )

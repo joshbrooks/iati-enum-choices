@@ -6,13 +6,11 @@ class BudgetTypeDescription(models.IntegerChoices):
     ORIGINAL = (
         1,
         pgettext_lazy(
-            "IATI codelist BudgetType description",
+            "BudgetType description",
             "The original budget allocated to the activity",
         ),
     )
     REVISED = (
         2,
-        pgettext_lazy(
-            "IATI codelist BudgetType description", "The updated budget for an activity"
-        ),
+        pgettext_lazy("BudgetType description", "The updated budget for an activity"),
     )

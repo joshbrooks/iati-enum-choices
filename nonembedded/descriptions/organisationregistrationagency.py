@@ -10,49 +10,49 @@ class OrganisationRegistrationAgencyDescription(models.TextChoices):
     AJMAN_CHAMBER_OF_COMMERCE_AND_INDUSTRY = (
         "AE-ACCI",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "There are 2 types of search available: Commercial search and Industrial search. You can also use an online enquiry form to find the required information. The contact details of Ajman Chamber and the heads of its sectors are also available.",
         ),
     )
     ABU_DHABI_COMMERCIAL_DIRECTORY = (
         "AE-ADCD",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "This register includes information on companies' Unified no., Membership no., name, address, phone number, email, activity etc.",
         ),
     )
     AJMAN_FREE_ZONE_AUTHORITY = (
         "AE-AFZ",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "The authority's website can be used to find its address, email and call center contacts. No clear search functionality directly on the website.",
         ),
     )
     DUBAI_CHAMBER_OF_COMMERCE_AND_INDUSTRY = (
         "AE-DCCI",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "This register includes information on companies name, address, phone number, website, activity and branches.",
         ),
     )
     DUBAI_FINANCIAL_SERVICES_AUTHORITY = (
         "AE-DFSA",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "This register includes information on companies' name, DFSA reference number, address, phone number, legal status, services.",
         ),
     )
     DUBAI_INTERNATIONAL_FINANCIAL_CENTRE = (
         "AE-DIFC",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "This register includes information on companies' name, registration number, activity, phone number, address, etc.",
         ),
     )
     DUBAI_MULTI_COMMODITIES_CENTRE = (
         "AE-DMCC",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """Dubai Multi Commodities Centre is a Free Zone Authority established by the government of Dubai in 2002. The DMCC authority registers and licenses companies to operate in the DMCC Free Zone.
 
 N.B There is a 'Business Directory', however, this does not provide registration numbers[1]
@@ -63,28 +63,28 @@ N.B There is a 'Business Directory', however, this does not provide registration
     FUJAIRAH_CHAMBER_OF_COMMERCE_AND_INDUSTRY = (
         "AE-FCCI",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "There is no company information available directly from this registry, but Chamber of Commerce and Industry can be contacted via the form on the website, phone or email to request more information.",
         ),
     )
     FUJAIRAH_FREE_ZONE_COMPANY_LISTING = (
         "AE-FFZ",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "There is no search available in this registry, but there is a list of companies with corresponding phone and fax numbers.",
         ),
     )
     HAMRIYAH_FREE_ZONE_AUTHORITY = (
         "AE-HFZA",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "A register that contains company names, addresses, phone numbers, emails, license numbers, activities, etc.",
         ),
     )
     RAS_AL_KHAIMAH_INVESTMENT_AUTHORITY = (
         "AE-RAKIA",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Ras al-Khaimah Investment Authority is the registering body for companies in the (RAK) free trade zone.
 
  There is no open registry but you can request more information via the contact form on the website or a phone call.""",
@@ -93,35 +93,35 @@ N.B There is a 'Business Directory', however, this does not provide registration
     RAS_AL_KHAIMAH_CHAMBER_OF_COMMERCE_AND_INDUSTRY = (
         "AE-RK_CR",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "This entry was imported from the Open Corporates Jurisdiction List.",
         ),
     )
     SHARJAH_AIRPORT_INTERNATIONAL_FREE_ZONE = (
         "AE-SAIF",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "This register contains information on company name, business type, phone number, email, PO box.",
         ),
     )
     SHARJAH_CHAMBER_OF_COMMERCE_AND_INDUSTRY = (
         "AE-SCCI",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "This business directory allows you to search for company names and provides information on their address, email, phone number, activity.",
         ),
     )
     UMM_AL_QUWAIN_CHAMBER_OF_COMMERCE_AND_INDUSTRY = (
         "AE-UQCCI",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "This register includes information about company name, PO box, address, activity, registration date.",
         ),
     )
     AFGHANISTAN_CENTRAL_BUSINESS_REGISTRY = (
         "AF-CBR",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Afghan Central Business Registry is a service which allows a single place to register a business in Afghanistan. All companies, groups and individuals are required to register at the ACBR, where they receive confirmation of their registration, become published in the ACBR Gazette and receive the Tax Identification Number.
 
 \"The new Central Registry is a one stop shop to register your business. It brings together all of the functions previously done by the commercial courts, the Ministry of Justice and the Ministry of Finance.\" [1]
@@ -140,14 +140,14 @@ Businesses are referred to ACBR from either the Trader License office located in
     MINISTRY_OF_ECONOMY_NGO_DEPARTMENT = (
         "AF-MOE",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "NGOs wishing to operate in Afghanistan must register with the NGOs Department of the Ministry of Economy. The register contains government departments, national NGOs and international NGOs.",
         ),
     )
     THE_NATIONAL_CENTRE_OF_COMMUNITY_ORGANISATIONS__ARGENTINA_ = (
         "AR-CENOC",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """Law Nº 25.855, de Voluntariado Social (Social Volunteering) established in 2004 a role for  El Centro Nacional de Organizaciones de la Comunidad to maintain a database of civil society organisations (CSOs).
 
 \"The CSOs that receive or intend to receive public funds must be included in the database, to carry out projects financed in whole or in part with state resources, whatever the subject matter.\"
@@ -158,7 +158,7 @@ Registration for the database requests detailed information, including capturing
     UNIQUE_TAX_IDENTIFICATION_CODE__ARGENTINA_ = (
         "AR-CUIT",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """Any citizen or company starting an economic activity in Argentina must register with the AFIP (Federal Administration of Public Revenues) and receive a Unique Tax Identification Code (CUIT).
 
 This is an 11 digit number, consisting two digits, hyphen, nine digits, and a one digit checksum.
@@ -168,14 +168,14 @@ This is an 11 digit number, consisting two digits, hyphen, nine digits, and a on
     AUSTRIA_COMPANY_REGISTER = (
         "AT-FB",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "Available only in German. Access can be obtained by using services of special companies like http://www.advokat.at/Advokat-Online/Module/Firmenbuch.aspx that are entitled to provide it (for full list see https://www.justiz.gv.at/web2013/html/default/2c9484852308c2a601240b693e1c0860.de.html)",
         ),
     )
     VAT_NUMBER__AUSTRIA_COMPANY_REGISTER_ = (
         "AT-UID",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """\"Since July 11, 2005, the records of all commercial register courts are kept electronically. The general ledger is kept by storing the entries in a central database, the so-called \"Firmenbuchdatenbank\" in the Federal Computing Center in Vienna.\"[1]
 
 Clearing houses commissioned by the Federal Ministry of Justice (Die Österreichische Justiz) provide the only access to the database.[2] Interfaces are mostly available only in German, and access/fees vary between the different operators.
@@ -189,7 +189,7 @@ Consider using the Business Register number with the prefix AT-FB (see list AT-F
     AUSTRALIAN_BUSINESS_REGISTER = (
         "AU-ABN",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """\"The Australian Business Number (ABN) enables businesses in Australia to deal with a range of government departments and agencies using a single identification number. The ABN is a public number which does not replace an organisations tax file number.\"
 
 \"ABN registration details become part of the Australian Business Register (ABR)\"
@@ -200,7 +200,7 @@ Each ABN should equate to a single 'business structure', although that structure
     AUSTRALIAN_CHARITIES_AND_NOT_FOR_PROFITS_COMMISSION = (
         "AU-ACNC",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """\"In Australia, charities must register with the Australian Charities and Not-for-profits Commission (ACNC) before they can receive charity tax concessions from the Australian Taxation Office (ATO).\"
 
 Charity Status can be applied to organisations that have an Australian Business Number (ABN) and that take a range of legal forms [1] including Australian Private Company, Australian Public Company, State level registered 'Other Incorporated Entity', Discretionary Investment Trust, Fixed Trusts, Co-operatives and Other Unincorporated Identities.
@@ -211,14 +211,14 @@ Charity Status can be applied to organisations that have an Australian Business 
     STATE_REGISTER_OF_COMMERCIAL_ENTITIES__MINISTRY_OF_TAXES_OF_AZERBAIJAN_REPUBLIC_ = (
         "AZ-IVI",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "Available only in Azerbaijani",
         ),
     )
     BANGLADESH_NGO_AFFAIRS_BUREAU = (
         "BD-NAB",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """All NGOs wishing to carry out programmes in Bangladesh must gain permission from the Bangladesh NGO Affairs Bureau. The Bureau keeps a list of NGOs, monitors funding and ensures the accountability of NGO projects.
 
 \"Its prime objective is to provide one-stop service to the NGOs operating with foreign assistance and registered under the Foreign Donations (Voluntary Activities) Regulation Ordinance, 1978. In addition, it facilitates the activities of the NGOs in the country, and ensures their accountability to the state and thereby to the people of the country\" [1]
@@ -235,7 +235,7 @@ Charity Status can be applied to organisations that have an Australian Business 
     CROSSROADS_BANK_FOR_ENTERPRISES = (
         "BE-BCE_KBO",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Crossroads Bank for Enterprises (BCE, ECB, CBE) is the registration office for companies in Belgium. The ECB compiles a list of business identification numbers, maintains the database and provides the list in an available format.
 
 \"The following companies must register with the ECB:
@@ -260,7 +260,7 @@ b) or must register in fulfillment of an obligation imposed by legislation Belgi
     AU_GREFFE_DU_TRIBUNAL_DE_COMMERCE_FRANCOPHONE_DE_BRUXELLES = (
         "BE-GTCF",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """'The Registry of the Francophone Brussels Commercial Court' does not appear to be an organisation registration agency.
 
 The one identifier we have found in use for this list appears to be derived instead from the BE-BCE_KBO register. """,
@@ -269,14 +269,14 @@ The one identifier we have found in use for this list appears to be derived inst
     COMMERCIAL_REGISTER = (
         "BG-EIK",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "This register uses Unified identification Codes (UIC) which certify the legality of one's business and under which one's company is signed in the National Statistics Agency.",
         ),
     )
     UNIQUE_TAX_IDENTIFIER = (
         "BJ-IFU",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Benin 'Unique Fiscal Identifier' was created by Decree No 2006-201 of 8 May 2006, and is linked to a national directory of persons, institutions and associations.
 
 \"The IFU's main objective is:
@@ -326,7 +326,7 @@ EXAMPLE: 3200901353510, """,
     COMPANIES_AND_INTELLECTUAL_PROPERTY_AUTHORITY__BOTSWANA_ = (
         "BW-CIPA",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Companies and Intellectual Property Authority (CIPA) is the official register of businesses in Botwana under the Companies Act (CAP 42:01), which provides for the incorporation of companies and the Registration of Business Names Act (CAP 42:05), which provides for registration of business names and post registration notices such as change of ownership and cessation of businesses.
 
 Both domestic and foreign companies may be registered with the Registrar of Companies.
@@ -338,7 +338,7 @@ Both domestic and foreign companies may be registered with the Registrar of Comp
     UNIFIED_STATE_REGISTER_OF_LEGAL_ENTITIES_AND_INDIVIDUAL_ENTREPRENEURS__MINISTRY_OF_JUSTICE_OF_THE_REPUBLIC_OF_BELARUS_ = (
         "BY-ADR",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """\"The Unified State Register of Legal Entities and Individual Entrepreneurs (hereinafter referred to as the USR) has been operating since 2003.
 In accordance with the Resolution of the Council of Ministers of the Republic of Belarus of February 23, 2009 No. 229 \"On the Unified State Register of Legal Entities and Individual Entrepreneurs\", information on legal entities, state bodies and state legal entities, provisions on which are approved by legislative acts, and also about individual entrepreneurs.\"[1]
 
@@ -352,7 +352,7 @@ In accordance with the Resolution of the Council of Ministers of the Republic of
     CORPORATIONS_CANADA = (
         "CA-CC",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """Corporations Canada are the federal company register.
 
 CA-CC should be used for the Canada Corporation Number
@@ -367,7 +367,7 @@ This entry was imported from the Open Corporates Jurisdiction List.""",
     CANADIAN_REVENUE_AGENCY = (
         "CA-CRA_ACR",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """Companies in Canada register with their provincial authority, e.g. British Columbia, and then they register with the Canadian Revenue Agency in order to pay corporate income tax and receive a Business Number.
 
 The code CA-CRA_ACR is used for Canadian Business Numbers.
@@ -394,105 +394,105 @@ Not all non-profit organisations must register to become a charity. Detailed inf
     LIST_OF_LEGAL_DEPARTMENT_NAMES__GOVERNMENT_OF_CANADA_ = (
         "CA-GOV",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """\"The dataset includes a list of legal department names and their respective numbers. The department number is assigned by the Receiver General to an organization listed in Schedules I, 1.1 and II of the Financial Administration Act authorized to use the Consolidated Revenue Fund and interface with the central systems operated by Public Works and Government Services Canada.\"""",
         ),
     )
     CORPORATE_REGISTRY_OFFICE = (
         "CA_AB-ABT",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "This entry was imported from the Open Corporates Jurisdiction List.",
         ),
     )
     BRITISH_COLUMBIA_CORPORATE_REGISTRY = (
         "CA_BC-BRC_CBR",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "This entry was imported from the Open Corporates Jurisdiction List.",
         ),
     )
     MANITOBA_COMPANIES_OFFICE__DEPARTMENT_OF_ENTREPRENEURSHIP__TRAINING_AND_TRADE = (
         "CA_MB-MTB",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "This entry was imported from the Open Corporates Jurisdiction List.",
         ),
     )
     CORPORATE_REGISTRY = (
         "CA_NB-NWB_NOB",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "This entry was imported from the Open Corporates Jurisdiction List.",
         ),
     )
     REGISTRY_OF_COMPANIES__DEPARTMENT_OF_GOVERNMENT_SERVICES = (
         "CA_NL-NFL_TNL",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "This entry was imported from the Open Corporates Jurisdiction List.",
         ),
     )
     NOVA_SCOTIA_REGISTRY_OF_JOINT_STOCK_COMPANIES = (
         "CA_NS-NVS_NVE",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "This entry was imported from the Open Corporates Jurisdiction List.",
         ),
     )
     CANADIAN_PROVINCIAL_CORPORATE_REGISTRATION_NORTHWEST_TERRITORIES = (
         "CA_NT-NWT_TNO",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "This entry was imported from the Open Corporates Jurisdiction List.",
         ),
     )
     NUNAVUT_DEPARTMENT_OF_JUSTICE_CORPORATE_REGISTRIES = (
         "CA_NU-NNV",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "This entry was imported from the Open Corporates Jurisdiction List.",
         ),
     )
     SERVICEONTARIO__MINISTRY_OF_GOVERNMENT_SERVICES = (
         "CA_ON-ONT",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "This entry was imported from the Open Corporates Jurisdiction List.",
         ),
     )
     PRINCE_EDWARD_ISLAND_CORPORATE = (
         "CA_PE-PEI_IPE",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "This entry was imported from the Open Corporates Jurisdiction List.",
         ),
     )
     QUEBEC_BUSINESS_REGISTRAR = (
         "CA_QC-QBC",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "This entry was imported from the Open Corporates Jurisdiction List.",
         ),
     )
     SASKATCHEWAN_CORPORATE_REGISTRY = (
         "CA_SK-SKN",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "This entry was imported from the Open Corporates Jurisdiction List.",
         ),
     )
     YUKON_CORPORATE_AFFAIRS = (
         "CA_YT-YKT",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "This entry was imported from the Open Corporates Jurisdiction List.",
         ),
     )
     COMMERCIAL_REGISTRY__FEDERAL_OFFICE_OF_JUSTICE__SWITZERLAND_ = (
         "CH-FDJP",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Swiss Commercial Register is administered by the cantons under the supervision of the Swiss Confederation. All the commercial register entries made by the cantonal register offices are published in the Swiss Official Gazette of Commerce (SOGC) after having been checked and approved by the Federal Commercial Registry Office.
 
 Since January 2011, all companies, foreign branches and associations / foundations registered in the various Swiss Commerce Registries are assigned a unique federal Company Identification Number, locally known as IDE (French), UID (German), IDI (Italian).
@@ -506,7 +506,7 @@ Previously, identifiers were of the format CH-RRR.X.XXX.XXX-P, where RRR is the 
     STATE_ADMINISTRATION_FOR_INDUSTRY_AND_COMMERCE__SAIC_ = (
         "CN-SAIC",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The SAIC is the national body which ensures business rights in China, for both domestic and foreign enterprises. Businesses must register with the SAIC. The Enterprise Registration Bureau is the department responsible for enterprise registration.
 
 For further details on the procedure for starting a business entity, see this WikiProcedure - https://www.wikiprocedure.com/index.php/China_-_Start_a_Business_Entity
@@ -534,7 +534,7 @@ With creating a regulated and harmonized market environment of fairness, justice
     BOGOTA_CHAMBER_OF_COMMERCE = (
         "CO-CCB",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """Each region of Colombia has a Chamber of Commerce to which all corporate entities must register. Bogota Chamber of Commerce (CCB) is responsible for Bogota.
 
 Users should refer to CO-RUE for unique identifiers for Colombia. CO-CCB has ben deprecated in favour of CO-RUE.
@@ -547,7 +547,7 @@ Users should refer to CO-RUE for unique identifiers for Colombia. CO-CCB has ben
     UNIFIED_COMMERCIAL_AND_SOCIAL_REGISTRY__RUES_ = (
         "CO-RUE",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Unified Commercial and Social Registry (RUES) integrates multiple commercial registries, including the NIT (Número de Identificación Tributaria) which can be used as the unique identifier.
 
 This database can be searched online for free.
@@ -568,14 +568,14 @@ This database can be searched online for free.
     CYPRUS_DEPARTMENT_OF_REGISTRAR_OF_COMPANIES_AND_OFFICIAL_RECEIVER__DRCOR_ = (
         "CY-DRCOR",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "Department of Registrar of Companies and Official Receiver maintains the register of companies, partnerships, business names, and overseas companies.",
         ),
     )
     TAX_ID__DIČ__CZECH_REPUBLIC = (
         "CZ-DIC",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """A VAT registration number (DIČ) is a unique and unambiguous identification of each tax entity, a legal or natural person who is a taxpayer (taxpayer). The tax identification number is assigned only after the entity, natural or legal person, obtains its IČO - its unique identification number. Note that the list [CZ-ICO](/list/CZ-ICO) might therefore provide a better set of identifiers for legal entities.
 
 You can search by VAT (DIČ) number for a of the VAT payer registered in the Czech Republic. You can also use your company ID or company name or your business name and surname if you want to verify your VAT payer details.""",
@@ -584,7 +584,7 @@ You can search by VAT (DIČ) number for a of the VAT payer registered in the Cze
     ACCESS_TO_REGISTERS_OF_ECONOMIC_SUBJECTS = (
         "CZ-ICO",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The ARES is an information system which collates data from several public registers in the Czech Republic. These include:
 
 Public registers comprising: the Commercial Register Federal Register, the Register of Foundations Register’s Institute, Register of Public Service Companies, Trade Register, and the Register of Economic Entities.
@@ -604,14 +604,14 @@ Enterprises do not register with the ARES. They must be register with the releva
     COMMON_REGISTER_PORTAL_OF_THE_GERMAN_FEDERAL_STATES__CRP_ = (
         "DE-CR",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "Common register portal of the German federal states provides  the registers of companies, cooperatives and partnerships and, to some extent, also of associations registered in all federal states in Germany as well as announcements for the register (publications).",
         ),
     )
     DANISH_CENTRAL_BUSINESS_REGISTER = (
         "DK-CVR",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The CBR is the national body for registering companies and maintaining this information in Denmark. The Central Business Register at Virk is available with English headings and categories. It can be used to search for information on all Danish businesses.
 
 \"The Danish Central Business Register (aka CVR — Det Centrale Virksomhedsregister) is the central government register containing primary data on all businesses in Denmark, regardless of economic and organizational structure, except personally owned companies with an annual turnover of less than 50,000 Danish krones.\" [1]
@@ -622,7 +622,7 @@ Enterprises do not register with the ARES. They must be register with the releva
     E_BUSINESS_REGISTER__ESTONIA_ = (
         "EE-KMKR",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """\"Central Commercial Register is an online service based on the central database of Estonian registration department of the court. The central database includes digital data from the commercial register, the commercial pledge register, the register of state agencies and local government institutions, the register of non-profit associations and foundations. \"[1]
 
 Records contain information about the legal entity including e.g. annual reports, address, registration status, tax debt information and legal form. It also includes a Registry Code (\"Registrikood\").
@@ -633,7 +633,7 @@ Records contain information about the legal entity including e.g. annual reports
     CENTRE_OF_REGISTERS_AND_INFORMATION_SYSTEMS__RIK_ = (
         "EE-RIK",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Centre of Registers and Information Systems (RIK) provides a number of services for Estonian individuals and business, in particular electronic services. These include the maintenance of the land registry database, criminal records database, company registry database and more. They also have a portal for the online registration of companies.
 
 \"COMPANY REGISTRATION PORTAL
@@ -648,14 +648,14 @@ You can view the data related to you free-of-charge by logging in with your ID-c
     MINISTRY_OF_SOCIAL_SOLIDARITY_AND_JUSTICE__EGYPT_ = (
         "EG-MOSS",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "The Ministry of Social Solidarity and Justice is the main registration body for associations and foundations in Egypt.",
         ),
     )
     COMMON_DIRECTORY_OF_ORGANIZATIONAL_UNITS_AND_OFFICES_DIR3 = (
         "ES-DIR3",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Common Directory of Organizational Units and Offices (DIR3) is a project to improve interoperability between public administration units in Spain. As a part of this, a list of all the public bodies is maintained by the Centro de Transferencia de Tecnología (Technology Transfer Centre).
 
 \"The Common Directory is conceived as a Inventory information on the organizational structure of the public administration, and its citizens care offices. That is, a catalogue of functional units, public agencies and registry offices and attention to the citizen of the administration\" [1]
@@ -668,7 +668,7 @@ EXCEL Tables: http://administracionelectronica.gob.es/ctt/resources/Soluciones/2
     CENTRAL_COMMERCIAL_REGISTER_OF_THE_KINGDOM_OF_SPAIN = (
         "ES-RMC",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Central Mercantile Register (1) provides the access to the companies information supplied by the Regional Mercantile Registers after the 1 January 1990, once the data has been organized and processed in accordance with Section 379 of the Mercantile Register Regulations currently in effect.
 
 (1) Central Commercial Register - Central Corporate Register - Central Business Register""",
@@ -677,14 +677,14 @@ EXCEL Tables: http://administracionelectronica.gob.es/ctt/resources/Soluciones/2
     CHARITIES_AND_SOCIETIES_AGENCY__ETHIOPIA_ = (
         "ET-CSA",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "Most Charities and Societies which operate in Ethiopia are required to register with the Charities and Societies Agency, an institution of the Federal Government, which issues certificates of legal personality to those registered.",
         ),
     )
     MINISTRY_OF_FOREIGN_AFFAIRS = (
         "ET-MFA",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """All charities wishing to operate in Ethiopia must register with the Ministry of Foreign Affairs (MFA). Details for how they register can be found in this document - http://mfa.gov.et/documents/10184/70245/NGO_Rule_English%5B1%5D%281%29.pdf/d20c730a-591e-4d3a-b9d8-a25aeb664904
 
 Charities are registered but no openly searchable database yet available.""",
@@ -693,7 +693,7 @@ Charities are registered but no openly searchable database yet available.""",
     MINISTRY_OF_TRADE__ETHIOPIA_ = (
         "ET-MOT",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Ministry of Trade is the official ministry for business registration in Ethiopia.
 
 \"The Ministry of Trade was re-established in August1995 under -- proclamation No 4/1995 issued to provide for the definition of powers and duties of the executive organs of the Federal Democratic Republic ofEthiopia (FDRE).
@@ -710,7 +710,7 @@ Encourage and register the establishment of chambers of commerce and sectorial a
     FINNISH_PATENT_AND_REGISTRATION_OFFICE = (
         "FI-PRO",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """All business operating in Finland must be registered with the Finnish Trade Register. The Finnish Trade Register is maintained by the Finnish Patent and Registration Office (PRO), whom are also responsible for maintaining the Business Information System, which can be used to search for all companies in Finland, and the API which allows users to download company information in bulk.
 
 \"The Finnish Trade Register (Finnish: Kaupparekisteri, Swedish: Handelsregistret) is a company register in Finland. It provides official information on businesses in the whole country, including data from current and old register entries, articles of association, partnership agreements or rules.\" [1]
@@ -734,7 +734,7 @@ search for basic details of companies and organizations using the company search
     THE_NATIONAL_INSTITUTE_OF_STATISTICS_AND_ECONOMIC_STUDIES = (
         "FR-INSEE",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The National Institute of Statistics and Economic Studies provide a registration service for companies and associations with details being held on the SIRENE database.
 
 Information from INSEE is also contained in the RCS dataset, and so this organisation list is deprecated in favour of FR-RCS. """,
@@ -743,7 +743,7 @@ Information from INSEE is also contained in the RCS dataset, and so this organis
     TRADE_AND_COMPANIES_REGISTER = (
         "FR-RCS",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """In France, companies register through a number of institutions, predominantly the local centres de formalités des entreprises, but all companies must eventually be registered with the Trade and Companies Register. Once registered, companies receive a SIREN or SIRET number, which is a unique business identifier.
 
 This information is maintained by Infogreffe. Infogreffe provide a basic overview of company information for free, and bulk download of data for a fee.
@@ -801,7 +801,7 @@ View, download, order\" [6]
     CHARITY_COMMISSION = (
         "GB-CHC",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """There are four main types of charity structure in the UK:
 
 (1) Charitable incorporated organisation (CIO)
@@ -816,7 +816,7 @@ View, download, order\" [6]
     COMPANIES_HOUSE = (
         "GB-COH",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """Companies House is the United Kingdom's register of companies.
 
 It contains entries for many kinds of companies, including:
@@ -835,7 +835,7 @@ It contains entries for many kinds of companies, including:
     REGISTER_OF_SCHOOLS__ENGLAND_AND_WALES_ = (
         "GB-EDU",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """Schools and Colleges in England must be registered with the Department of Education, and in Wales with the Welsh Government.[1]
 
 The Register of Schools is maintained by the Department of Education and provides a URN for each school, university and other educational establishment in England and Wales.
@@ -848,7 +848,7 @@ The full Register of Schools in England is available (Alpha version) on https://
     GOVERNMENT_ORGANISATION_REGISTER = (
         "GB-GOR",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The UK Government Organisation Register contains an identifier for every government body with a presence on the gov.uk single domain.
 
 This covers government departments, agencies and Arms Length Bodies (ALBs).
@@ -861,7 +861,7 @@ Due to the stable identifiers given in the Government Organisation Register, it 
     UK_GOVERNMENT_DEPARTMENTS_REFERENCE_NUMBERS__IATI_STANDARD_ = (
         "GB-GOV",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """IATI Version 2.x codes for use by IATI for UK Government Departments.
 
 Users looking for non-IATI codes for government organsiations should use the UK Government Organsiation Register GB-GOR""",
@@ -870,7 +870,7 @@ Users looking for non-IATI codes for government organsiations should use the UK 
     GOV_UK_UK_GOVERNMENT_DEPARTMENTS__AGENCIES___PUBLIC_BODIES = (
         "GB-GOVUK",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """This list is deprecated in favour of GB-GOR, the Government Organisation Registry which assigns a unique code to each agency with a page at www.gov.uk.
 
 To construct a legacy GB-GOVUK identifier, use the final segment of the url of a body at http://www.gov.uk (below /organisations) as the \"registration number\", converting all \"-\" to \"_\". Keep \"registration number\" portion all lowercase.
@@ -881,14 +881,14 @@ It should be possible to map form GB-GOVUK to GB-GOR identifiers. """,
     SCHOOLS_PLUS__DEPARTMENT_OF_EDUCATION__NORTHERN_IRELAND_ = (
         "GB-IRN",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "Schools Plus is a directory of institutions, including schools, youth clubs, containing contact information and relevant statistics. Only Open schools seem to be on the list currently.",
         ),
     )
     LOCAL_AUTHORITIES_FOR_ENGLAND_REGISTER = (
         "GB-LAE",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Local Authorities for England Register has been developed with the UK Department for Communities and Local Government (DCLG), and contains identifiers for 350+ local authorities. It also includes the 'local authority type' (e.g. Unitary Authority, London Borough) for each.
 
 It uses the second portion of [ISO_3166-2](https://en.wikipedia.org/wiki/ISO_3166-2:GB) codes where these are available, and creates new codes where they are not. For more information on GOV.UK Registers, visit https://registers.cloudapps.digital/""",
@@ -897,7 +897,7 @@ It uses the second portion of [ISO_3166-2](https://en.wikipedia.org/wiki/ISO_316
     SCOTTISH_LOCAL_AUTHORITY_REGISTER = (
         "GB-LAS",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Local Authority SCT Register has been developed with the Scottish Government and Government Digital Service (GDS), and contains identifiers for 32 local authorities.
 
 It uses the second portion of [ISO_3166-2](https://en.wikipedia.org/wiki/ISO_3166-2:GB) codes and includes all codes listed for Scotland (SCT). """,
@@ -906,7 +906,7 @@ It uses the second portion of [ISO_3166-2](https://en.wikipedia.org/wiki/ISO_316
     MUTUALS_PUBLIC_REGISTER = (
         "GB-MPR",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Mutuals Public Register is the public record of registered mutual societies:
 
 * building societies
@@ -924,7 +924,7 @@ the services they offer
     NHS_DIGITAL_ORGANISATION_DATA_SERVICE = (
         "GB-NHS",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """\"The Organisation Data Service (ODS) is responsible for publishing organisation and practitioner codes, along with related national policies and standards. We're also responsible for the ongoing maintenance of the organisation and person nodes of the Spine Directory Service, the central data repository used within various NHS systems and services.
 
 Find out more about Organisation Reference data by reading the fundamental standard.\"[1][2]
@@ -946,14 +946,14 @@ Codes are allocated for:[3]
     THE_CHARITY_COMMISSION_FOR_NORTHERN_IRELAND = (
         "GB-NIC",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "The Register of Charities is an accurate and up-to-date list of all organisations in Northern Ireland considered by law to be charitable. Currently, registration is a managed process and only organisations called forward by the Commission are considered eligible to register. For more information on the Register please visit http://www.charitycommissionni.org.uk/manage-your-charity/register-your-charity/charity-registration-faqs/.",
         ),
     )
     PRINCIPAL_LOCAL_AUTHORITY_REGISTER_FOR_WALES = (
         "GB-PLA",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Principal Local Authority Register has been developed with the Welsh Government and Government Digital Service (GDS), and contains identifiers for 22 county and county borough councils. The register may not cover all local authorities as it focuses on bodies providing mainstream local government services.
 
 It uses the second portion of [ISO_3166-2](https://en.wikipedia.org/wiki/ISO_3166-2:GB) codes and includes all codes listed for Wales (WLS). """,
@@ -962,7 +962,7 @@ It uses the second portion of [ISO_3166-2](https://en.wikipedia.org/wiki/ISO_316
     HM_REVENUE_AND_CUSTOMS = (
         "GB-REV",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """Some UK charitable organisations are exempt or excepted from registering with the Charity Commission. This may be due to the nature of the organisation, it's historical status, or income threshold.
 
 However, these organisations can register for tax purposes with HM Revenue and Customs, and receive a registration number.
@@ -973,7 +973,7 @@ This may be reported prefixed with XC (for eXempt Charity).""",
     SCOTTISH_CHARITY_REGISTER = (
         "GB-SC",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Office of the Scottish Charity Register (OSCR) regulates charities in Scotland and maintains a public registry of these charities.
 
 \"The OSCR perform a range of functions which includes:[5]
@@ -990,7 +990,7 @@ Giving information or advice to Scottish Ministers.\" [1]
     REGISTERED_SOCIAL_HOUSING_PROVIDERS__ENGLAND_ = (
         "GB-SHPE",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """A statutory register of not-for-profit (housing associations), for-profit private, and local authority social housing providers, who are registered to operate in England. The Homes and Communities Agency (HCA)[1] is the regulator for social housing providers in England and maintains the list.
 
 Fields indicate the designation of the social housing provider (e.g. private, non-profit, local authority) and the legal entity type (by their inclusion on the FCA Mutual Register, the Charity Register and Companies House).
@@ -1003,21 +1003,21 @@ A *monthly* published list also appears on the HCA website, which includes new r
     UK_REGISTER_OF_LEARNING_PROVIDERS = (
         "GB-UKPRN",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "A UKPRN is a unique number allocated to a provider on successful registration on the UK Register of Learning Providers. ",
         ),
     )
     REGISTER_OF_ENTREPRENEURIAL_AND_NON_ENTREPRENEURIAL_LEGAL_ENTITIES__GEORGIA = (
         "GE-NAPR",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "The National Agency of Public Registry (NAPR) of Georgia registers all legal entities in Georgia. This includes government and non-government bodies (including the private sector). The Identification Code assigned by NAPR is the same as the VAT number in Georgia. NAPR assigns codes for government bodies in addition to all non-governmental organisations (private and non-profit).",
         ),
     )
     GUERNSEY_REGISTRY = (
         "GG-RCE",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """All companies in Guernsey must register with the Guernsey Registry. This also applies to most charities and NPOs. The Guernsey Registry maintain a registry of all companies, charities and all NPOs in Guernsey. These are recorded in a publicly searchable webpage database for companies and also two separate lists for charities and NPOs.
 
 Please Note: According to OpenCorporates, the identifiers are not unique across the Guernsey Registry, as there a five separate registries that can be assigned to organisation information and up to five companies my have the same identifier. OC have thus added their own identifier number based on each registry type. Further details available here - qa_public/register_problems/guernsey
@@ -1035,7 +1035,7 @@ However there is an exemption from this requirement. This applies to Non Profit 
     DEPARTMENT_OF_SOCIAL_DEVELOPMENTS = (
         "GH-DSW",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """All NGOs wishing to operate in Ghana must first register with the General Registrar's Office, and then apply for NGO status from the Department of Social Welfare (DSW). NGOs are then issued with a certificate that contains their registration number.
 
 There is no database available for search.
@@ -1048,7 +1048,7 @@ There is no database available for search.
     HONG_KONG_COMPANIES_REGISTER = (
         "HK-CR",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """All businesses operating in Hong Kong, including non-Hong Kong businesses with a place of business in Hong Kong must register with the Companies Register.
 
 This includes Sole-proprietorship, Partnership and Unincorporated body of persons, Non-Hong Kong company, and Branch business, as well as companies incorporated under the Companies Ordinance.
@@ -1059,7 +1059,7 @@ Businesses are issued with a registration certificate that is valid for three ye
     CROATIAN_COURT_BUSINESS_REGISTER = (
         "HR-MBS",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The court business register is maintained by the Croatian Ministry of Justice (Ministarstvo Pravosuda Republike Hrvatske).
 
 Registered corporations each have a court-assigned company registration number (matični broj poslovnog subjekta - MBS)""",
@@ -1068,21 +1068,21 @@ Registered corporations each have a court-assigned company registration number (
     CROATIA_COURT_REGISTER = (
         "HR-OIB",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "Maintained by the Ministry of Justice of the Republic of Croatia.",
         ),
     )
     INFORMATION_AND_ELECTRONIC_COMPANY_REGISTRATION_SERVICE = (
         "HU-AFA",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "The Ministry of Justice Information and Electronic Company Registration Service website provides free accesss to individual company data online from 1 January 2008. Only available in Hungarian.",
         ),
     )
     MINISTRY_OF_HOME_AFFAIRS = (
         "ID-KDN",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Ministry of Home Affairs conducts a series of tasks in relation to legal practice and administration within Indonesia. However, no link has been found between the Ministry of Home Affairs and NGO/company registration.
 
 As a result, this code has been deprecated.
@@ -1114,14 +1114,14 @@ NGO registration can also be done through Ministry Home affairs/ Kementerian Dal
     MINISTRY_OF_JUSTICE___HUMAN_RIGHTS = (
         "ID-KHH",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "Company registration is done through Ministry of Justice & Human Rights. ",
         ),
     )
     MINISTRY_OF_FOREIGN_AFFAIRS = (
         "ID-KLN",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """All NGOs foreign to Indonesia who wish to operate in the country must register through the Ministry of Foreign affairs/ Kementerian Luar Negeri.
 
 \"Registration Process:
@@ -1134,7 +1134,7 @@ NGO registration can also be done through Ministry Home affairs/ Kementerian Dal
     INDONESIA_NGOS_REGISTERED_AT_PROVINICIAL_LEVEL = (
         "ID-PRO",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """Registration for NGO in Indonesia can be done at the provincial level. Because there is regional autonomy, each provincial has different requirements.
 
 This list was in the original IATI list, but current research has not been able to identify any publicly accessible registries nor lists of unique identifiers. A search of the IATI database finds no instances of use of ID-PRO as part of an identifier. For these reasons the list has been deprecated.""",
@@ -1143,7 +1143,7 @@ This list was in the original IATI list, but current research has not been able 
     THE_SMERU_RESEARCH_INSTITUTE = (
         "ID-SMR",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The SMERU Research Institute is an independent body which conducts research on social issues in Indonesia. They also maintains a database of NGOs working in Indonesia.
 
 \"The SMERU Research Institute is an independent institution for research and public policy studies. We professionally and proactively provide accurate and timely information, as well as objective analyses, on various socioeconomic and poverty issues considered most urgent and relevant for the people of Indonesia.\" [1]
@@ -1157,7 +1157,7 @@ This list was in the original IATI list, but current research has not been able 
     CHARITIES_REGULATORY_AUTHORITY_OF_IRELAND = (
         "IE-CHY",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """All charities operating in Ireland must register with the Charities Regulatory Authority. The Charities Regulator maintains a publicly searchable database of these organisations, in webpage and Excel form.
 
 \"Our work as a Regulator is to increase public trust and confidence in the management and administration of charitable organisations and to ensure the accountability of charitable organisations to donors, beneficiaries and the public.  All charitable organisations carrying out activities in the state are required to be registered with the Charities Regulator.  All registered charities are required to report on their activities and finances to the Regulator on an annual basis. \" [1]
@@ -1168,7 +1168,7 @@ This list was in the original IATI list, but current research has not been able 
     IRISH_COMPANIESREGISTRATION_OFFICE = (
         "IE-CRO",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Companies Registration Office of Ireland is responsible for the incorporation of business operating in Ireland and maintaining an online database of the information. Data is provided for free and also for a fee, depending on the amount/type requested.
 
 \"The CRO has a number of core functions:
@@ -1184,7 +1184,7 @@ This list was in the original IATI list, but current research has not been able 
     REGISTRAR_OF_COMPANIES__ISRAEL_ = (
         "IL-ROC",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Register of Companies is maintained by the Israeli Corporations Authority and can be searched using part or all of a company name in English or Hebrew, or by entering the company number. The search interface and the results are in Hebrew.
 
 Free information on a company includes type of company, address, legal status and purpose of the company.
@@ -1195,14 +1195,14 @@ Additional information such as details of directors, total authorized capital, d
     ISLE_OF_MAN_COMPANIES_REGISTRY = (
         "IM-CR",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "The Isle of Man Companies Registry provides registration for domestic and foreign companies registered or operating on the Isle of Man. ",
         ),
     )
     ISLE_OF_MAN_INDEX_OF_REGISTERED_CHARITIES = (
         "IM-GR",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """All charities in the Isle of Man must be registered with the General Registry. The General Registry maintain information about charities in the Index of Registered Isle of Man Charities
 
 \"The General Registry has specific statutory roles in relation to the registration of charities and the receipt of statutory statements, accounts and other documents in relation to charities.\" [1]
@@ -1230,7 +1230,7 @@ registration of legal practitioners (other than advocates)\" [2]
     GOVERNMENT_OF_INDIA__MINISTRY_OF_CORPORATE_AFFAIRS = (
         "IN-MCA",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """Companies in India register with the Registrar of Companies in their state. While each Registrar of Companies maintains their own database, the Ministry of Corporate Affairs regulates the corporate sector and maintains a database of national company information.
 
 This information is accessible in data.gov.in
@@ -1246,7 +1246,7 @@ The Registrar of Company takes care of company registration (also known as incor
     MINISTRY_OF_HOME_AFFAIRS__INDIA__FOREIGN_CONTRIBUTIONS__REGULATION__ACT_REGISTER = (
         "IN-MHA",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Foreign Contributions (Regulation) Act required NGOs in receipt of foreign funding in India to register with the government. They are assigned an FRCA Registration Number.
 
 """,
@@ -1255,7 +1255,7 @@ The Registrar of Company takes care of company registration (also known as incor
     ITALIAN_TAX_CODE___VAT_NUMBER = (
         "IT-CF",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """Companies (and some other entities) in Italy must register with the Business Register of the Chambers of Commerce.
 
 They are assigned a Codice Fiscale (CF) or Tax Code which also acts as their Partitia IVA (P.IVA) or VAT Number.
@@ -1266,7 +1266,7 @@ Entities may also be assigned an Economic and Administrative Directory (REA) ide
     BUSINESS_REGISTER_OF_THE_ITALIAN_CHAMBERS_OF_COMMERCE = (
         "IT-RI",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """Companies (and some other entities) in Italy must register with the Business Register of the Chambers of Commerce.
 
 They are assigned a Codice Fiscale (CF) or Tax Code.
@@ -1277,7 +1277,7 @@ Entities may also be assigned an Economic and Administrative Directory (REA) ide
     JERSEY_FINANCIAL_SERVICES_COMMISSION__JFSC_ = (
         "JE-FSC",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """Companies and Non Profit Organisations operating in Jersey register with the Financial Services Commission (JFSC). A search of company information is freely available on the Commission website. There was no search available for NPOs at the time of last checks.
 
 Users should be aware that the identifier numbers are not unique, as there are multiple types of companies and identifiers can be repeated. For example, there are two companies with the number '1381' - an LP (limited partnership) and an RC (Registered Private Company)
@@ -1300,7 +1300,7 @@ JE-FSC-LP_1381
     JERSEY_OVERSEAS_AID_COMMISSION = (
         "JE-OAC",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Jersey Overseas Aid Commission is responsible for distributing international development funds from Jersey. But they are not responsible for registration of NGOs. No database for organisation identifiers has been found.
 
 \"Jersey has been funding international aid and development since 1968, but the current ‘Jersey Overseas Aid Commission’ was established by law in 2005. It is an independent body within the responsibilities of the Chief Minister. It is governed by three States Commissioners and three non-States Commissioners, all of whom are appointed by the States of Jersey.\" [1]
@@ -1314,7 +1314,7 @@ JE-FSC-LP_1381
     COMPANIES_CONTROL_DEPARTMENT__JORDAN_ = (
         "JO-CCD",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Companies Control Department is an independent national financial and administrative institution affiliated to the Minister of Industry and Trade in Jordan under the provisions of the amended Companies Law No. (40) of 2002. The work of the department is governed by the 1997 Companies Law No.
 
 The Department is responsible for registration of various types of companies within the Hashemite Kingdom of Jordan, including non-profit companies.
@@ -1325,7 +1325,7 @@ It maintains a number of online services for searching company information at ht
     REGISTER_OF_ASSOCIATIONS__JORDAN = (
         "JO-MSD",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """\"The register of associations was established in the Ministry of Social Development in the Hashemite Kingdom of Jordan by virtue of the Associations Law No. (51) of 2008 and its amendments which abolished the Law of Associations and Voluntary Organizations No. 33 of 1966 and its amendments. The register of associations is the regulator of the associations sector in the Kingdom and in line with the legislation in force.\"[1]
 
 [1]: http://www.societies.gov.jo/SitePage.aspx?PageId=107 (translated from Arabic)""",
@@ -1334,7 +1334,7 @@ It maintains a number of online services for searching company information at ht
     NATIONAL_TAX_AGENCY_CORPORATE_NUMBER_PUBLICATION_SITE = (
         "JP-JCN",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """On this website, the Corporate Number of each organization that has such number designated, and the name and the address of the head office or principal place of business of each organization that has registered its indications in English are made public.
 The registry is open and searchable by Japanese Corporate Number (JCN) (in Japanese only), but only limited information is available. More information on the corporate number (JCN) can be found here - http://www.nta.go.jp/foreign_language/corporate_number/ (National Tax Agency website). """,
         ),
@@ -1342,7 +1342,7 @@ The registry is open and searchable by Japanese Corporate Number (JCN) (in Japan
     NGO_S_COORDINATION_BOARD = (
         "KE-NCB",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The NGO Coordination Board of Kenya registers NGOs and maintains a registry of organisation information. This information can be accessed by through request and after paying a fee.
 
 \"The Board has the responsibility of regulating and enabling the NGO sector in Kenya.
@@ -1364,14 +1364,14 @@ The applicant can decide whether to carry out the records search themselves or h
     REGISTAR_OF_COMPANIES = (
         "KE-RCO",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "The Registrar of Companies is under the remit of the Registrar General, which is a part of the Office of the Attorney General and Department of Justice. This Registrar is responsible for the registration of companies within Kenya, and maintains a database, the records of which can be accessed on request for a fee.",
         ),
     )
     REGISTRAR_OF_SOCIETIES = (
         "KE-RSO",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Registrar of Societies is held under the Office of the Attorney General and Department of Justice. Interest groups in Kenya apply to the Registrar of Societies for both registration and exemption from registration of being a 'society'. But there is no indication that societies have legal/corporate foundation. There is also no publicly available database of the Registrar of Societies.
 
 For Kenya's NGO registry list, users should look to KE-NCB. Please note there is currently no publicly available dataset for this registry.
@@ -1384,21 +1384,21 @@ For Kenya's NGO registry list, users should look to KE-NCB. Please note there is
     ELECTRONIC_DATABASE_OF_LEGAL_ENTITIES_AND_BRANCHES__KRYGYZSTAN_ = (
         "KG-ID",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "The Ministry of Justice of the Republic of Kyrgyz maintains the register of legal entities.",
         ),
     )
     KYRGYZ_REPUBLIC_REGISTER_OF_LEGAL_ENTITIES = (
         "KG-INN",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "The Ministry of Justice of the Kyrgyz Republic maintains the register of legal entities. Only Russian and Kyrgyz interfaces are available.",
         ),
     )
     BUSINESS_IDENTIFICATION_NUMBER__BIN_ = (
         "KZ-BIN",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """\"Business Identification Number (BIN) is a unique number consisting of 12 digits created for legal person (branch and agency) and individual entrepreneur operating in form of joint entrepreneurship.
 
 [...] as from January 1, 2013 [...] BIN (Business Identification Number) will be implemented in the Republic of Kazakhstan instead of Taxpayer’s Registration Number (TRN).\"[1]
@@ -1411,7 +1411,7 @@ The Ministry of Finance of the Republic of Kazakhstan maintains the business reg
     LEBANESE_MINISTRY_OF_JUSTICE__COMMERCIAL_REGISTER = (
         "LB-CR",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """'Article 23 of the Lebanese Trade Law stipulates that 'every court of first instance shall have a record carefully recorded by the author under the supervision of the President or a judge appointed by the President specifically in each year'. The Clerk of the Court is limited to the recording of data submitted by stakeholders without examination or scrutiny and without verifying their validity.
 
 The Commercial Register is divided into two types:
@@ -1424,14 +1424,14 @@ The Commercial Register is divided into two types:
     MINISTRY_OF_INTERIOR__LEBANON_ = (
         "LB-MOI",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "The Ministry of Interior is the main registration body in Lebanon. All NGOs are required to register with the Ministry of Interior.",
         ),
     )
     LESOTHO_COUNCIL_OF_NON_GOVERNMENTAL_ORGANISATIONS = (
         "LS-LCN",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Lesotho Council of NGOs provides a range of support services and advocacy to civil society organisations  in Lesotho. They do not appear to have the responsibility of either registering NGOs or maintaining a database of identifiers.
 
 \"The Lesotho Council of Non-Governmental Organisations (LCN) is an umbrella organizations for NGOs in Lesotho. It was established in May 1990 with an objective of providing supportive services to the NGO Community. The Council implements this through networking and leadership training and development, information dissemination, capacity building, coordination, advocacy and representation when dealing with the government and the international community.\" [1]
@@ -1442,14 +1442,14 @@ The Commercial Register is divided into two types:
     LITHUANIA_REGISTER_OF_LEGAL_ENTITIES = (
         "LT-PVM",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "The Register of Legal Entities registers businesses, institutions and NGOs and collects detailed data about Lithuanian legal entities as well as branches and representative offices of foreign companies and organizations. The Register contains complete information (and historical data) about legal form and status of legal entities, fields of its activity, size and structure of the authorized capital, members of sole and collective management bodies, licenses acquired, etc. It is obligatory for the most of business companies to submit annual financial statements to the Register of Legal Entities since 2004. Starting from March 2010 private limited liability companies are obliged to declare current list of shareholders to the Register. ",
         ),
     )
     INFORMATION_PLATFORM_OF_LEGAL_ENTITIES__LITHUANIA_ = (
         "LT-RC",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """\"The Register of Legal Entities registers businesses, institutions and NGOs and collects detailed data about Lithuanian legal entities as well as branches and representative offices of foreign companies and organizations.
 
 The Register contains complete information (and historical data) about legal form and status of legal entities, fields of its activity, size and structure of the authorized capital, members of sole and collective management bodies, licenses acquired, etc. It is obligatory for the most of business companies to submit annual financial statements to the Register of Legal Entities since 2004. Starting from March 2010 private limited liability companies are obliged to declare current list of shareholders to the Register. \"[1]
@@ -1462,7 +1462,7 @@ Government agencies are also included in the register.
     REGISTER_OF_ENTERPRISES_OF_THE_REPUBLIC_OF_LATVIA = (
         "LV-RE",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Register of Enterprises registers companies and maintains a database of organisation information. This information is searchable on the website and can be found in CSV form.
 
 \"Register of Enterprises is the central institution which keeps all data and records up to date. It is mandatory to submit incorporation documents with the registry at the moment of company establishment, as well as to file all amendments in the company board (directors) or shareholder registry.
@@ -1480,7 +1480,7 @@ Free of charge information includes type of legal entity; registered office; new
     LEGAL_ENTITY_REGISTRATION_NUMBER__IDNO__MOLDOVA = (
         "MD-IDNO",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """\"General information about the legal entities incorporated on the Republic of Moldova’s territory, except political parties, non-governmental organizations and press agencies. Data from the State Chamber of Registration is published once per month on the Government Portal of Open Data (http://www.date.gov.md/en) and can be searched in a convenient way via dedicated platform http://www.idno.md/.\"[1]
 
 The unique state identification number (IDNO) assigned to the legal entity also constitutes its fiscal code.
@@ -1500,14 +1500,14 @@ More information about companies and their administrators / founders can be requ
     THE_CHAMBER_OF_COMMERCE_AND_INDUSTRY_OF_MALI = (
         "ML-CCIM",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "The Chamber of Commerce and Industry of Mali (CCIM) is responsible for the organization and professional representation of organisations and legal persons working in the various branches of commercial, industrial and service activities in Mali.",
         ),
     )
     TAX_IDENTIFICATION_NUMBER = (
         "ML-NIF",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Tax Identification Number (Numero d’Identification Fiscale) is issued to registered companies, and to branches of foreign organisations operating in Mali.
 
 There is publicly available register of assigned Tax Identification Numbers.
@@ -1517,7 +1517,7 @@ There is publicly available register of assigned Tax Identification Numbers.
     MINISTRY_OF_HOME_AFFAIRS_CENTRAL_COMMITTEE_FOR_THE_REGISTRATION_AND_SUPERVISION_OF_ORGANISATIONS = (
         "MM-MHA",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The MHA assigns a registration number to each NGO - this number is time limited, for example 4 years, after which the registration is reviewed.
 
 There is no URL for the Ministry, nor is there a publicly available database of NGO information.""",
@@ -1526,7 +1526,7 @@ There is no URL for the Ministry, nor is there a publicly available database of 
     COMPANIES_AND_BUSINESSES_REGISTRATION_INTEGRATED_SYSTEM__MAURITIUS = (
         "MU-CR",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Corporate and Business Registration Department has the following main functions:
 - The incorporation, registration and striking-off of companies
 - The registration of documents that must be filed under the Companies Act 2001
@@ -1540,7 +1540,7 @@ There is no URL for the Ministry, nor is there a publicly available database of 
     THE_COUNCIL_FOR_NON_GOVERNMENTAL_ORGANISATIONS_IN_MALAWI = (
         "MW-CNM",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Council for NGOs in Malawi provides a range of support services and advocacy initiatives to NGOs working in Malawi. They do not appear to have the responsibility of registering organisations or maintaining a database with information.
 
 \"Objectives:
@@ -1558,7 +1558,7 @@ There is no URL for the Ministry, nor is there a publicly available database of 
     MALAWI_REVENUE_AUTHORITY = (
         "MW-MRA",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Malawi Revenue Authority is responsible for processing tax payments and investigating cases of tax evasion in Malawi. They do not appear to be responsible for the registration of companies or maintaining a database of organisations.
 
 Company registration in Malawi is done through the Department of Registrar General, under the Ministry of Justice and Constitutional Affairs.
@@ -1572,7 +1572,7 @@ Applications may be submitted to the Department of Registrar General’s Head Of
     NGO_BOARD_OF_MALAWI = (
         "MW-NBM",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """All NGOs operating in Malawi must register with the NGO Board of Malawi. All NPOs must also register with the Registrar General. There is a pdf file with a list of registered NGOs, but they do not have registration numbers. New database is planned.
 
 \"In line with Section 20 of the NGO Act, every organization that wishes to operate or is operating in Malawi as an NGO must register with the NGO Board of Malawi. The Board is a regulatory Body for NGOs in Malawi and failure to register with it means the NGO will be operating illegally.\" [1]
@@ -1588,7 +1588,7 @@ Applications may be submitted to the Department of Registrar General’s Head Of
     REGISTRAR_GENERAL__DEPARTMENT_OF_JUSTICE = (
         "MW-RG",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Department of Registrar General under the Department of Justice and Constitutional Affairs is where companies and NPOs register in Malawi. They do not have a database of company information available online.
 
 \"We are a government department under the Ministry of Justice and Constitutional Affairs responsible for the registration and administration of business entities, Non Profit Organizations and Industrial Property Rights\" [1]
@@ -1599,7 +1599,7 @@ Applications may be submitted to the Department of Registrar General’s Head Of
     BUDGET_CLASSIFICATION_OF_PUBLIC_ENTITIES__MEXICO_ = (
         "MX-CPA",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """This list provides Mexico's administrative classification, which includes the following concepts:
 
 * Ramo: a concept that groups all the specific organizations from Mexico's Public Administration.
@@ -1615,7 +1615,7 @@ For example:
     FEDERAL_TAXPAYERS_REGISTRY = (
         "MX-RFC",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Registro Federal de Contribuyentes de México assigns an RFC identifier to both individual and corporate taxpayers.
 
 Registration takes place through Servicio de Administración Tributaria (SAT) and registrants are provided with their RFC.
@@ -1630,7 +1630,7 @@ The structure of an RFC encodes information about the initials and date of regis
     COMPANIES_COMMISSION_OF_MALAYSIA = (
         "MY-SSM",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Companies Commission of Malaysia (SSM) is a statutory body formed as a result of a merger between the Registrar of Companies (ROC) and the Registrar of Businesses (ROB) in Malaysia which regulates companies and businesses. SSM came into operation on 16 April 2002.
 """,
         ),
@@ -1638,14 +1638,14 @@ The structure of an RFC encodes information about the initials and date of regis
     MOZAMBIQUE_COMMERCIAL_REGISTRY = (
         "MZ-CR",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "The purpose of the Commercial Registry is to make known the status of merchant of natural and legal persons, being defined as mandatory for the formation of companies. ",
         ),
     )
     MOZAMBIQUE_MINISTRY_OF_JUSTICE = (
         "MZ-MOJ",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """'Domestic NGOs are required to register with the Ministry of Justice.'[1]
 
 [1] http://www.commonwealthofnations.org/sectors-mozambique/civil_society/national_ngos_civil_society/
@@ -1655,7 +1655,7 @@ The structure of an RFC encodes information about the initials and date of regis
     TAXPAYER_SINGLE_IDENTIFICATION_NUMBER__MOZAMBIQUE_ = (
         "MZ-NUIT",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """NUIT is the Mozambique Taxpayer Single Identification Number.
 
 It is made up of 9 digits split into 3 parts: the first digit stands for the type of entity, the middle part is a sequential number, and the last digit provides a checksum.
@@ -1666,7 +1666,7 @@ Both individuals and corporate entities are assigned an NUIT. """,
     BUREAU_OF_PUBLIC_PROCUREMENT__BPP__CONTRACTOR_REGISTRATION_SYSTEM__NIGERIA_ = (
         "NG-BPP",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Nigerian Bureau of Public Procurement are responsible for monitoring and oversight of public procurement in Nigeria.
 
 The Contractor and Service Provider Database System is a government vendor registration database system that assigns a unique contractor identification number, categories, and classification of firms who have applied for, or been involved in, government contracts.
@@ -1678,7 +1678,7 @@ The Contractor and Service Provider Database System is a government vendor regis
     NIGERIAN_CORPORATE_AFFAIRS_COMMISSION = (
         "NG-CAC",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """All companies operating in Nigeria must register with the Corporate Affairs Commission. NGOs also register with the Commission. This database is available through a searchable webpage.
 
 \"The Corporate Affairs Commission (CAC) of Nigeria was established in 1990 vide Companies and Allied Matters Decree no 1 (CAMD) 1990 as amended, now on Act cap C20 Laws of federation of Nigeria. It is an autonomous body charged with the responsibility to regulate the formation and management of companies in Nigeria.\" [1]
@@ -1692,7 +1692,7 @@ The Contractor and Service Provider Database System is a government vendor regis
     CHAMBER_OF_COMMERCE__NETHERLANDS_ = (
         "NL-KVK",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """All companies and entities (including most NGOs) in the Netherlands must enrol with the Commercial Register, which is hosted by the Dutch Chamber of Commerce. Each entity receives a Chamber of Commerce number upon registration, which is the appropriate identifier Dutch companies and NPOs.
 
 Basic company information is available for free, detailed info can be downloaded for a fee.
@@ -1711,7 +1711,7 @@ Basic company information is available for free, detailed info can be downloaded
     OVERHEID_NL_WEB_METADATA_STANDARD = (
         "NL-OWMS",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """Overheid.nl is the central access point to all information about government organisations of the Netherlands.
 
 The Overheid.nl Web Metadata Standard ( OWMS ) is the metadata standard for information from the Dutch government on the Internet.
@@ -1729,7 +1729,7 @@ A management plan is in place for updating of the information [1].
     BRØNNØYSUNDREGISTRENE = (
         "NO-BRC",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """Companies in Norway must be Registered with the Register of Business Enterprises. Non-profits are eligible for registry with the Register of Non-Profit Organizations.
 
 These registries are maintained by the Brønnøysundregistrene.  Businesses can be incorporated by applying to the online 'coordinated register notification' - Altinn, which is also maintained by Brønnøysundregistrene.
@@ -1754,7 +1754,7 @@ This database can be searched by the public for free from the organisation homep
     COMPANY_REGISTRAR_OFFICE = (
         "NP-CRO",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """All companies operating in Nepal must register with the Office of the Company Registrar Office. This database is available for search on the Office homepage.
 
 \"To register a company, the promoter must submit an application as prescribed by the Ministry of Industry, Commerce, and Supplies. Online filing of the required documents has been introduced and made mandatory. After the online filing, entrepreneurs are required to visit the Office of Company Registrar and submit all the original documents for further verification.\" [1]
@@ -1765,7 +1765,7 @@ This database can be searched by the public for free from the organisation homep
     SOCIAL_WELFARE_COUNCIL_NEPAL = (
         "NP-SWC",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """International NGOs wishing to operate in Nepal must register with the Social Welfare Council. Upon registration, these INGOs receive an Affiliation Certificate and an SWC Affiliation Number. This database can be searched on the website.
 
 Local NGOs do not need to be associated with the SWC, but may register with their local District Administration Office (DAO). The SWC list is thus not a complete list of all NGOs working in Nepal.
@@ -1778,7 +1778,7 @@ Local NGOs do not need to be associated with the SWC, but may register with thei
     PERUVIAN_NATIONAL_SUPERINTENDENCY_OF_PUBLIC_REGISTRIES_REGISTERED_LEGAL_ENTITIES = (
         "PE-SUNARP",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The SUNARP is an autonomous decentralized body of the Justice Sector in Peru and the governing body of the National System of Public Registries. It maintains the register of Legal Entities (\"Registro De Personas Juridicas\") which covers corporate and non-corporate bodies including:
 
 * Non Corporate
@@ -1801,7 +1801,7 @@ Local NGOs do not need to be associated with the SWC, but may register with thei
     SECURITIES_AND_EXCHANGE_COMMISSION__PHILIPPINES_ = (
         "PH-SEC",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Securities and Exchange Commission in the Philippines provides licenses so that corporations, partnerships or associations can transact business in the Philippines.
 
 For domestic companies, this may come in the form of a 'Certificate of Incorporation'. For foreign firms or organisations, branches may obtain a 'License to transact business'. """,
@@ -1810,7 +1810,7 @@ For domestic companies, this may come in the form of a 'Certificate of Incorpora
     PAKISTAN_CENTRE_FOR_PHILANTHROPY = (
         "PK-PCP",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Pakistan Centre for Philanthropy provides certification for NGOs working in Pakistan. Registration with the PCP is not obligatory for working in Pakistan and therefore not all NGOs will be recorded on the 'PCP Certified CSO List'. However, this list can be searched online.
 
 All NGOs are required to register with their local Voluntary Social Welfare department.
@@ -1823,7 +1823,7 @@ All NGOs are required to register with their local Voluntary Social Welfare depa
     PAKISTAN_VOLUNTARY_SOCIAL_WELFARE_AGENCY = (
         "PK-VSWA",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """All NGOs are required to register with their local Voluntary Social Welfare (VSWA) department. The VSWA assigns each organisation with an organisation identifier that is made up of a number and the year of registration. There is no searchable database.
 
 The VSWA number should be used as a unique identifier, but users should be aware that the entire sequence is needed (number and year), as it is possible that the number is unique to the year of registration, but is repeated for other years, i.e, 511-2007 is ASFP, but there may be another org with 511-1998.
@@ -1843,7 +1843,7 @@ Authority\" [1]
     THE_NATIONAL_COURT_REGISTER__POLAND_ = (
         "PL-KRS",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The National Court Register (KRS standing for Krajowy Rejestr Sądowy) number is required to be acquired by several types of organizations: companies (without Sole Proprietorships that register in CEiDG), non-profits (associations, foundations, charities), unions and public health institutions.
 
 An organization has to apply for a KRS number and pay a fee (around 25$). """,
@@ -1852,7 +1852,7 @@ An organization has to apply for a KRS number and pay a fee (around 25$). """,
     TAX_IDENTIFICATION_NUMBER__POLAND_ = (
         "PL-NIP",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Tax Identification Number (NIP) is used for tax purposes and can be assigned to any organization: companies including sole proprietorships, non-profits, government agencies.
 
 NIP is assigned to organizations in process of their registration.
@@ -1863,7 +1863,7 @@ Till 2011 NIP number was also assigned to natural people (tax payers).""",
     REGON_STATISTICAL_NUMBER_OF_AN_ECONOMY_ENTITY = (
         "PL-REGON",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """A unique number assigned to national economic entities, and to the local units of these entities in the national official register of national economy entities,  REGON. The identifier provides no implicit or explicit information on the features of an entity.
 
 Every organization receives REGON number during the registration phase.
@@ -1876,7 +1876,7 @@ One of a few exceptions are, for example, schools that will have REGON numbers (
     MINISTRY_OF_INTERIOR__PALESTINE_ = (
         "PS-MOI",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Palestine Ministry of Interior provide a registration list of NGOs, divided by province and responsible ministry.
 """,
         ),
@@ -1884,7 +1884,7 @@ One of a few exceptions are, for example, schools that will have REGON numbers (
     PORTAL_OF_PUBLIC_SERVICES = (
         "PT-NIPPC",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The business register is governed by the Business Registry Code, adopted by Decree-Law No 403/86 of 3 December 1986, and is the responsibility of the business registry offices throughout the country; these offices are external services of the Institute of Registrars and Notaries (IRN), a public body supported by the Ministry of Justice.
 """,
         ),
@@ -1892,7 +1892,7 @@ One of a few exceptions are, for example, schools that will have REGON numbers (
     CLASSIFICATION_OF_ENTITIES_IN_THE_NATIONAL_BUDGET_FOR_PARAGUAY = (
         "PY-PGN",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """Provides identifiers for organizations and institutions from the Paraguayan State, including national public bodies, administrative departments, and municipalities.
 
 From the National Budget Law (Presupuesto General de la Nación (PGN)) of 2016 from Paraguay:
@@ -1909,7 +1909,7 @@ N.B. Please note, many government organisations also have an 'RUC' code (list [P
     UNIQUE_TAXPAYER_REGISTRY__PARAGUAY = (
         "PY-RUC",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Registro Único del Contribuyente (RUC) is the unique taxpayer registry that maintains the personal, non-transferable, identification number for all those physical persons (national or foreign) and legal entities (for-profit and non-profit) that carry out economic activities in the Paraguayan territory.
 
 The identification number is created primarily for tax purposes.""",
@@ -1918,7 +1918,7 @@ The identification number is created primarily for tax purposes.""",
     NATIONAL_TRADE_REGISTER__ROMANIA_ = (
         "RO-CUI",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The National Trade Register Office (NTRO) is a public institution with legal personality, subordinated to the Ministry of Justice, entirely financed from the state budget, whose activity is regulated by the Law no. 26/1990 on trade register, as republished and subsequently amended and supplemented.
 
 The National Trade Register Office carries out the following activities:
@@ -1933,7 +1933,7 @@ The National Trade Register Office carries out the following activities:
     SERBIAN_BUSINESS_REGISTRATIONS_AGENCY = (
         "RS-APR",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Serbian Business Registrations Agency (APR) provides a single place of registration for all companies and individuals - domestic and foreign - operating in Serbia. Each entity is given an identification number and a tax number in the Business Entities Register.
 
 The Матични број / identification number should be used for identifiers.
@@ -1958,14 +1958,14 @@ This is the identification number contained in the Company Register \" [2]
     TAX_IDENTIFICATION_NUMBER_REGISTER = (
         "RS-PIB",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "Ordinary taxpayer registration numbers start from the number 10000001 and end with the number 99999999. The PIB is determined so that the first eight digits are the regular registration number of the taxpayer, and the last digit is the control number. ",
         ),
     )
     UNIFORM_STATE_REGISTER_OF_LEGAL_ENTITIES_OF_RUSSIAN_FEDERATION = (
         "RU-INN",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """This register offers information reports on any legal entity registered on the territory of the Russian Federation in the on-line mode directly from the respective registers.
 
  There are following types of products available at this moment:
@@ -1979,7 +1979,7 @@ This is the identification number contained in the Company Register \" [2]
     UNIFIED_STATE_REGISTER_OF_LEGAL_ENTITIES__USRLE___RUSSIAN_FEDERATION = (
         "RU-OGRN",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """\"The USRLE (Uniform State Register of Legal Entities) (also EGRUL) is a federal information resource. The USRLE recording is performed by the registering authorities according to the procedure established by the Government of the Russian Federation.
 
 Here you can get information about any legal entity registered in the territory of the Russian Federation in the form of an information extract from the Unified State Register of Legal Entities.
@@ -1992,7 +1992,7 @@ Information is provided from the Unified State Register of Legal Entities in the
     BOLAGSVERKET = (
         "SE-BLV",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Swedish Companies Registration Office (Bolagsverket) registers all business operating in Sweden, except for sole traders. This registry is available to search online. All entities are given an organisation number that can be used as an identifer.
 
 \"All forms of business enterprise except for sole traders have to be registered with the Swedish Companies Registration Office before starting to operate.\" [1]
@@ -2003,14 +2003,14 @@ Information is provided from the Unified State Register of Legal Entities in the
     LEGAL__FINANCIAL_AND_ADMINISTRATIVE_SERVICES_AGENCY__SWEDEN_ = (
         "SE-KK",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "A Swedish administrative authority under the Ministry of Finance, which is responsible for the registration of religious communities and organisational units of religious communities. ",
         ),
     )
     BUSINESS_REGISTRATION_NUMBER__ORGANISATIONSNUMMER___SWEDEN = (
         "SE-ON",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """\"The organization number is a unique identifier assigned to legal entities, such as companies and associations.
 
 The authority that registers the company or association when it is to be started assigns the organizational number. Most companies and associations have their organization number from the Swedish Companies Registration Office [Bolagsverket](http://www.bolagsverket.se). But also, for example, the Swedish Tax Agency and Land Survey allocate organizational numbers.
@@ -2037,7 +2037,7 @@ Non-commerical organsiation are searchable through other third-party application
     ACCOUNTING_AND_CORPORATE_REGULATORY_AUTHORITY__ACRA_ = (
         "SG-ACRA",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Accounting and Corporate Regulatory Authority (ACRA) is the national regulator of business entities, public accountants and corporate service providers in Singapore. Each corporate entity receives a Unique Entity Number (UEN), which should be used as the identifier.
 
 \"Registering or setting up a company in Singapore is accomplished through contacting Accounting and Corporate Regulatory Authority (ACRA).\" [1]
@@ -2054,14 +2054,14 @@ Unique Entity Number (UEN) as its identification number. \" [2]
     SLOVENIAN_BUSINESS_REGISTER = (
         "SI-PRS",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "The Slovenian Business Register (PRS) is a central database containing information about all business entities involved in a profit or non-profit activity having their principal place of business located on the territory of the Republic of Slovenia, as well as information on their subsidiaries and other divisions of business entities performing business activities in the territory of the Republic of Slovenia.",
         ),
     )
     TAX_IDENTIFICATION_NUMBER__SLOVENIA_ = (
         "SI-TIN",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """A unique tax identifier code (Davčna številka) which every legal entity or an individual entrepreneur must obtain.
 
 These are entered on to the Slovenian Business Register (Poslovni register Slovenije)""",
@@ -2070,7 +2070,7 @@ These are entered on to the Slovenian Business Register (Poslovni register Slove
     MINISTRY_OF_JUSTICE_BUSINESS_REGISTER = (
         "SK-ORSR",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """\"The companies register is administered by the Ministry of Justice. Entry to the register is obligatory for companies, cooperatives and for some specific physical entities stated by law. Information in the register is searchable by trade name, identification number, registered office, registration number and name of a person.\" [1]
 
 \"The Obchodný register (commercial register) is a public list containing statutory data concerning entrepreneurs, companies and other legal entities, where this is laid down by separate legislation.
@@ -2083,7 +2083,7 @@ The list is administered by the Ministry of Justice of the Slovak Republic.\" [2
     SLOVAKIA_MINISTRY_OF_INTERIOR_TRADE_REGISTER = (
         "SK-ZRSR",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Ministry of Interior Trade Register does have a database of companies, but users should refer to the Ministry of Justice Business Register in SK-ORSR for the unique identifier list for Slovakia.
 
 The Ministry of Justice has been shown to be the organisation responsible for company registration, and thus SK-ZRSR has been deprecated in favour of SK-ORSR.""",
@@ -2092,7 +2092,7 @@ The Ministry of Justice has been shown to be the organisation responsible for co
     NATIONAL_IDENTIFICATION_NUMBER_OF_COMPANIES_AND_ASSOCIATIONS__NINEA___SENEGAL = (
         "SN-NINEA",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """Any organization (company, association, NGO) operating in Senegal must be included in a directory of legal entities ([Source](http://www.impotsetdomaines.gouv.sn/fr/demander-un-ninea)).
 
 Registration takes place through several agencies, and a Numéro d’Identification National des Entreprises et des Associations (NINEA) (National Identification Number for Companies and Associations) is provided to incorporated bodies.
@@ -2103,21 +2103,21 @@ A directory or lookup of companies and numbers is not available online, however 
     SOUTH_SUDAN_RELIEF_AND_REHABILITATION_COMMISSION = (
         "SS-RRC",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "The South Sudan Relief and Rehabilitation Commission (SSRRC) is an agency of the Government of South Sudan. It is the operational arm of the Ministry of Humanitarian Affairs and Disaster Management. The NGO Act 2016 added additional powers to the agency to register any NGO interested in operating in South Sudan. ",
         ),
     )
     MERSIS_CENTRAL_TRADE_REGISTRY_SYSTEM = (
         "TR-MERSIS",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "Central Trade Registry System (MERSIS) is a centralized information system allowing for the implementation of the commercial registry processes and storing them and commercial registry data electronically. MERSIS can be accessed by registered users or using the e-signature from the website of the Ministry of Customs and Trade. It contains titles of companies, addresses, contact information, capital information, companies' partners, joint capital information, field of business, executive bodies of companies. Some information can also be found at http://www.ticaretsicil.gov.tr/english/index.php",
         ),
     )
     DEPARTMENT_OF_ASSOCIATIONS__MINISTRY_OF_INTERIOR__TURKEY_ = (
         "TR-MOI",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """All non-profit associations operating in Turkey should register with the Department of Associations.
 
 During registration, they will be given a registration number. """,
@@ -2126,7 +2126,7 @@ During registration, they will be given a registration number. """,
     TANZANIA_BUSINESS_REGISTRATIONS_AND_LICENSING_AGENCY = (
         "TZ-BRLA",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Business Registrations and Licensing Agency (BRELA)[ (http://www.brela.go.tz/] registers companies in Tanzania. Based on the data available on Open Corporates, it appears that BRELA assigns each organisation with a unique identifier .
 
 \"The Business Registrations and Licensing Agency (BRELA) is an Executive Agency under the Ministry of Industry and Trade responsible for business administration and regulation of the laws; namely Companies Registration, Business Names Registration, Trade and Service Marks Registration, granting of Patents and issuing of Industrial License.\" [1]
@@ -2140,7 +2140,7 @@ The Business Registrations and Licencing Agency (BRELA) has started to list regi
     TANZANIA_REVENUE_AGENCY = (
         "TZ-TRA",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """\"The Tanzania Revenue Authority (TRA) was established by Act of Parliament No. 11 of 1995, and started its operations on 1st July 1996.  In carrying out its statutory functions, TRA is regulated by law, and is responsible for administering impartially various taxes of the Central Government.\"[1]
 
 The Tanzanian Revenue Authority provides Taxpayer Identification Numbers (TIN) for organisations registered in Tanzania. This is issued under section 3A(4) of the Income Tax Act no. 33 of 1973. As amended by the financial laws (miscellaneous amendments) 2000.
@@ -2155,7 +2155,7 @@ There is no searchable database for TIN. It's possible that a company with a TIN
     UNITED_STATE_REGISTER = (
         "UA-EDR",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Ministry of Justice hosts the United State Register for all corporate entities, individuals and community groups who are registered in Ukraine. Each corporate entity is assigned an identification code which can be used as a unique identifier.
 
 The is a free search and a paid search of the database, and there is a third party search in Russian.
@@ -2168,7 +2168,7 @@ The is a free search and a paid search of the database, and there is a third par
     NGO_BOARD__MINISTRY_OF_INTERNAL_AFFAIRS = (
         "UG-NGB",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """All NGOs wishing to operate in Uganda must register with the NGO Board of the Ministry of Internal Affairs.
 
 \"The National NGO Board under the Ministry of Internal Affairs, which is the lead Ministry, is legally mandated to register, regulate, coordinate and monitor NGOs in Uganda.\"""",
@@ -2177,21 +2177,21 @@ The is a free search and a paid search of the database, and there is a third par
     REGISTRATION_SERVICES_BUREAU = (
         "UG-RSB",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "Businesses and NGOs register with the Registration Services Bureau and receive an identification number. This number can be used as an identifier. A publicly available database can be search on the Bureau website.",
         ),
     )
     CORPORATION_REGISTRATION_IS_THE_RESPONSIBILITY_OF_EACH_STATE__SEE_LINK_ = (
         "US-DOS",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "This code was present in the IATI Organization Registration Agency codelist. It should no longer be used. ",
         ),
     )
     EMPLOYER_IDENTIFICATION_NUMBER_INTERNAL_REVENUE_SERVICE = (
         "US-EIN",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Internal Revenue Service (IRS) assigns companies an Employer Identification Number (EIN) upon application. However, not all corporate entities are required to have an EIN. For tax-exempt entities (non-profits, charities etc.) the IRS maintains a list of EINs. Public listed company EINs are available via the Securities and Exchange Commission (SEC).
 
 Other EINs may be available by asking the organisation concerned, and are sometimes published on their websites.
@@ -2215,7 +2215,7 @@ Across those states performance varies widely and in many cases data is not avai
     INDEX_OF_U_S__GOVERNMENT_DEPARTMENTS_AND_AGENCIES = (
         "US-USAGOV",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The U.S. Government website has an index of departments and agencies. This index can be searched, and the URL paths for agencies used to construct government agency identifiers.
 
 """,
@@ -2224,28 +2224,28 @@ Across those states performance varies widely and in many cases data is not avai
     UNITED_STATE_REGISTER_OF_CORPORATE_ENTITES = (
         "UZ-KTUT",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "The State Statistics Committee of the Republic of Uzbekistan maintans the United State Register of Corporate Entites and organizations (Корхоналар ва ташкилотларнинг ягона давлат)",
         ),
     )
     EXAMPLE_DATA_PREFIX = (
         "XE-EXAMPLE",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "List code prefix reserved for use in example data which require a valid org-id.guide prefix (e.g. for use in data validator testing).",
         ),
     )
     ECONOMIC_OPERATORS_IDENTIFICATION_AND_REGISTRATION_SYSTEM = (
         "XI-EORI",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "This site allows to validate EORI numbers and provides access to the information related to Authorised Economic Operators (AEO). An EORI number is unique throughout the EU, assigned by a customs authority in a member state to economic operators (businesses) or persons. ",
         ),
     )
     GLOBAL_RESEARCH_IDENTIFIERS_DATABASE = (
         "XI-GRID",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Global Research Identifiers Database collects information on research institutions and assigns them a unique identifier.
 
 It draws on information from funding datasets, and claims over 90% coverage of institutions.
@@ -2260,7 +2260,7 @@ It includes cross-linkages to a range of other identifier sources. """,
     INTERNATIONAL_AID_TRANSPARENCY_INITIATIVE_ORGANISATION_IDENTIFIER = (
         "XI-IATI",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """XI-IATI is a list of organisation identifiers that is maintained by the IATI Secretariat. Any publisher may apply to the IATI Technical Team for an identifier to be generated.
 
 \"If a bona fide organisation is not registered with any recognised or appropriate registration agency (http://iatistandard.org/202/codelists/OrganisationRegistrationAgency/) they should contact the IATI Technical Team who will exceptionally allocate an organisation identifier using the XI-IATI prefix.
@@ -2275,7 +2275,7 @@ For general guidance about constructing Organisation Identifiers, please see htt
     PUBLIC_BODIES_OPEN_KNOWLEDGE_FOUNDATION = (
         "XI-PB",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """Public Bodies is an Open Knowledge Foundation (OKF) project that aims to provide a unique ID for every part of every government. The main website is a portal for linking to profile pages for countries whose public bodies OKF has recorded. There are also links to directly download CSVs of this information.
 
 Data available on the following countries/regions - Brazil, European Union, Germany, Greece, New Zealand, Switzerland, United Kingdom, United States """,
@@ -2284,21 +2284,21 @@ Data available on the following countries/regions - Brazil, European Union, Germ
     PERMID__THOMPSON_REUTERS_PERMANENT_IDENTIFIER = (
         "XI-PID",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "Thomson Reuters Permanent Identifier (PermID) is a machine readable identifier that provides a unique reference for data item. PermID provides comprehensive identification across a wide variety of entity types including organizations, instruments, funds, issuers and people. PermID never changes and is unambiguous, making it ideal as a reference identifier.",
         ),
     )
     WIKIDATA = (
         "XI-WIKIDATA",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             "Wikidata is a free knowledge base that anyone can edit. It holds linked open data about tens of millions of entities and more than one million of them are organizations. Each instition item can hold a wide range of statements, names in hundreds of languages and identifiers in other databases.",
         ),
     )
     OECD_DEVELOPMENT_ASSISTANCE_COMMITTEE = (
         "XM-DAC",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Organisation for Economic Co-operation and Development (OECD) Development Assistance Committee (DAC) has created a list of organisations whom are involved in the transfer of financial flows within the work of the OECD DAC. A list of all the Donors, Agencies and Recipients can be downloaded from the OECD website. This list is updated every three years.
 
 See Donor, Agency and Delivery Channel codes.
@@ -2314,7 +2314,7 @@ See Donor, Agency and Delivery Channel codes.
     UNITED_NATIONS_OFFICE_FOR_THE_COORDINATION_OF_HUMANITARIAN_AFFAIRS_FINANCIAL_TRACKING_SERVICES_IDENTIFIERS = (
         "XM-OCHA",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """OCHA (Office for the Coordination of Humanitarian Affairs) is the part of the United Nations Secretariat responsible for bringing together humanitarian actors to ensure a coherent response to emergencies.
 
 The Financial Tracking Service assigns it's own organisation identifiers to parties involved in funding or delivery of humanitarian work, which are used in UN OCHA data, and may be used by some third-parties.
@@ -2325,7 +2325,7 @@ The Financial Tracking Service assigns it's own organisation identifiers to part
     NUTS_EUROPEAN_UNION_NOMENCLATURE_OF_TERRITORIAL_UNITS_FOR_STATISTICS = (
         "XR-NUTS",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The European Union's Nomenclature of Territorial Units for Statistics (NUTS) provides codes for territorial areas at a number of different levels.
 
 Where no primary identifiers for regional and local government entities are available, then NUTS level 2 and 3 codes, and Local Administrative Unit (LAU 1 and LAU 2 level) codes could be used as a proxy for the primary local government body responsible for that area.
@@ -2347,7 +2347,7 @@ For example: XR-NUTS-UK_E07000105
     COMPANIES_AND_INTELLECTUAL_PROPERTY_COMMISSION__CIPC_ = (
         "ZA-CIP",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Companies and Intellectual Property Commission (CIPC) is responsible for company registration in South Africa. There is a basic free database search, or users can subscribe to the CIPC website.
 
 \"Functions of the Commission
@@ -2361,7 +2361,7 @@ Disclosure of Information on its business registers\" [1]
     NONPROFIT_ORGANISATION_DIRECTORATE_SOUTH_AFRICAN_DEPARTMENT_OF_SOCIAL_DEVELOPMENT = (
         "ZA-NPO",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Nonprofit Organisation Directorate is held under the South African Department of Social Development. NPOs register with the Nonprofit Organisation Directorate and are assigned a registration number. Users can refer to ZA-NPO for unique identifiers for NGOs in South Africa. The database can be searched for free.
 
 Users should note that they should not include \"NPO\" to the end of the identifier.
@@ -2376,7 +2376,7 @@ The Register of Nonprofit Organisations (NPOs) is a voluntary registration facil
     SA_REVENUE_SERVICE_TAX_EXEMPTION_UNIT = (
         "ZA-PBO",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """Non-profit organisations (NPOs) can apply for Public Benefit Organisation (PBO) status from the South Africa Revenue Service in order to become tax exempt. However, not all NPOs will be awarded this status, therefore the ZA-PBO should not be referred to as the Primary list of unique identifiers for NPOs in South Africa.
 
 No searchable database of PBOs has been found.
@@ -2391,7 +2391,7 @@ An organisation will enjoy preferential tax treatment only after it has applied 
     PATENTS_AND_COMPANIES_REGISTRATION_AGENCY = (
         "ZM-PCR",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """The Patents and Companies Registration Agency (PACRA) is responsible for company registration in Zambia.
 
 \"The Patents and Companies Registration Agency (PACRA) is a semi-autonomous executive agency of the Zambian Ministry of Commerce, Trade and Industry. Its principal functions are to operate a legal system for registration and protection of commercial and industrial property and to serve as a legal depository of the information tendered for registration..\" [1]
@@ -2402,7 +2402,7 @@ An organisation will enjoy preferential tax treatment only after it has applied 
     PRIVATE_VOLUNTARY_ORGANISATIONS_COUNCIL__ZIMBABWE_ = (
         "ZW-PVO",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """\"NGOs in Zimbabwe are mainly registered under the Private Voluntary Organization Act (PVO Act). Registration is done through the Department of Social Welfare under the Ministry of Public Service Labour and Social Welfare.\" [1]
 
 [1] http://www.kanokangalawfirm.net/setting-ngo-zimbabwe/""",
@@ -2411,7 +2411,7 @@ An organisation will enjoy preferential tax treatment only after it has applied 
     REGISTRAR_OF_DEEDS = (
         "ZW-ROD",
         pgettext_lazy(
-            "IATI codelist OrganisationRegistrationAgency description",
+            "OrganisationRegistrationAgency description",
             """Companies in Zimbabwe must register with the Registrar of Deeds.
 
 Currently, all Zimbabwe government websites appear not to be working.

@@ -10,28 +10,28 @@ class CRSAddOtherFlagsDescription(models.IntegerChoices):
     FREE_STANDING_TECHNICAL_COOPERATION = (
         1,
         pgettext_lazy(
-            "IATI codelist CRSAddOtherFlags description",
+            "CRSAddOtherFlags description",
             "Free standing technical cooperation (Col 24 in CRS++ Reporting format)",
         ),
     )
     PROGRAMME_BASED_APPROACH = (
         2,
         pgettext_lazy(
-            "IATI codelist CRSAddOtherFlags description",
+            "CRSAddOtherFlags description",
             "Programme-based approach (Col 25 in CRS++ Reporting format)",
         ),
     )
     INVESTMENT_PROJECT = (
         3,
         pgettext_lazy(
-            "IATI codelist CRSAddOtherFlags description",
+            "CRSAddOtherFlags description",
             "Investment project (Col 26 in CRS++ Reporting format)",
         ),
     )
     ASSOCIATED_FINANCING = (
         4,
         pgettext_lazy(
-            "IATI codelist CRSAddOtherFlags description",
+            "CRSAddOtherFlags description",
             "Associated financing (Col 27 in CRS++ Reporting format)",
         ),
     )

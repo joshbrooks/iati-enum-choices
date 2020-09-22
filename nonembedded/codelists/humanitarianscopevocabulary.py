@@ -9,15 +9,13 @@ class HumanitarianScopeVocabulary(models.TextChoices):
 
     GLIDE = (
         "1-2",
-        pgettext_lazy("IATI codelist HumanitarianScopeVocabulary", "Glide"),
+        pgettext_lazy("HumanitarianScopeVocabulary", "Glide"),
     )
     HUMANITARIAN_PLAN = (
         "2-1",
-        pgettext_lazy("IATI codelist HumanitarianScopeVocabulary", "Humanitarian Plan"),
+        pgettext_lazy("HumanitarianScopeVocabulary", "Humanitarian Plan"),
     )
     REPORTING_ORGANISATION = (
         "99",
-        pgettext_lazy(
-            "IATI codelist HumanitarianScopeVocabulary", "Reporting Organisation"
-        ),
+        pgettext_lazy("HumanitarianScopeVocabulary", "Reporting Organisation"),
     )

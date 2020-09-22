@@ -5,13 +5,13 @@ from django.utils.translation import pgettext_lazy
 class TiedStatus(models.IntegerChoices):
     PARTIALLY_TIED = (
         3,
-        pgettext_lazy("IATI codelist TiedStatus", "Partially tied"),
+        pgettext_lazy("TiedStatus", "Partially tied"),
     )
     TIED = (
         4,
-        pgettext_lazy("IATI codelist TiedStatus", "Tied"),
+        pgettext_lazy("TiedStatus", "Tied"),
     )
     UNTIED = (
         5,
-        pgettext_lazy("IATI codelist TiedStatus", "Untied"),
+        pgettext_lazy("TiedStatus", "Untied"),
     )

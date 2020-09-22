@@ -10,28 +10,28 @@ class ActivityDateTypeDescription(models.IntegerChoices):
     PLANNED_START = (
         1,
         pgettext_lazy(
-            "IATI codelist ActivityDateType description",
+            "ActivityDateType description",
             "The date on which the activity is planned to start, for example the date of the first planned disbursement or when physical activity starts.",
         ),
     )
     ACTUAL_START = (
         2,
         pgettext_lazy(
-            "IATI codelist ActivityDateType description",
+            "ActivityDateType description",
             "The actual date the activity starts, for example the date of the first disbursement or when physical activity starts.",
         ),
     )
     PLANNED_END = (
         3,
         pgettext_lazy(
-            "IATI codelist ActivityDateType description",
+            "ActivityDateType description",
             "The date on which the activity is planned to end, for example the date of the last planned disbursement or when physical activity is complete.",
         ),
     )
     ACTUAL_END = (
         4,
         pgettext_lazy(
-            "IATI codelist ActivityDateType description",
+            "ActivityDateType description",
             "The actual date the activity ends, for example the date of the last disbursement or when physical activity is complete.",
         ),
     )

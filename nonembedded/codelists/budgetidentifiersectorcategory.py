@@ -9,47 +9,41 @@ class BudgetIdentifierSectorCategory(models.IntegerChoices):
 
     GENERAL_PUBLIC_SERVICE = (
         1,
-        pgettext_lazy(
-            "IATI codelist BudgetIdentifierSector-category", "General Public Service"
-        ),
+        pgettext_lazy("BudgetIdentifierSector-category", "General Public Service"),
     )
     JUSTICE__LAW__ORDER_AND_SECURITY = (
         2,
         pgettext_lazy(
-            "IATI codelist BudgetIdentifierSector-category",
+            "BudgetIdentifierSector-category",
             "Justice, Law, Order and Security",
         ),
     )
     ECONOMIC_AFFAIRS = (
         3,
-        pgettext_lazy(
-            "IATI codelist BudgetIdentifierSector-category", "Economic Affairs"
-        ),
+        pgettext_lazy("BudgetIdentifierSector-category", "Economic Affairs"),
     )
     WATER__NATURAL_RESOURCE_MANAGEMENT_AND_ENVIRONMENT = (
         4,
         pgettext_lazy(
-            "IATI codelist BudgetIdentifierSector-category",
+            "BudgetIdentifierSector-category",
             "Water, Natural Resource Management and Environment",
         ),
     )
     SOCIAL_AFFAIRS = (
         5,
-        pgettext_lazy(
-            "IATI codelist BudgetIdentifierSector-category", "Social Affairs"
-        ),
+        pgettext_lazy("BudgetIdentifierSector-category", "Social Affairs"),
     )
     DEVELOPMENT_PARTNER_AFFAIRS = (
         6,
         pgettext_lazy(
-            "IATI codelist BudgetIdentifierSector-category",
+            "BudgetIdentifierSector-category",
             "Development Partner Affairs",
         ),
     )
     GENERAL_BUDGET_SUPPORT_AND_AID_SUPPORT_EXTERNAL_TO_GENERAL_GOVERNMENT_SECTOR = (
         7,
         pgettext_lazy(
-            "IATI codelist BudgetIdentifierSector-category",
+            "BudgetIdentifierSector-category",
             "General Budget Support and Aid support external to General Government Sector",
         ),
     )

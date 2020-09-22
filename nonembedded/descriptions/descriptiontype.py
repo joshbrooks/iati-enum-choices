@@ -10,28 +10,28 @@ class DescriptionTypeDescription(models.IntegerChoices):
     GENERAL = (
         1,
         pgettext_lazy(
-            "IATI codelist DescriptionType description",
+            "DescriptionType description",
             "Unstructured, long description of the activity ",
         ),
     )
     OBJECTIVES = (
         2,
         pgettext_lazy(
-            "IATI codelist DescriptionType description",
+            "DescriptionType description",
             "Specific objectives for the activity, e.g. taken from logical framework",
         ),
     )
     TARGET_GROUPS = (
         3,
         pgettext_lazy(
-            "IATI codelist DescriptionType description",
+            "DescriptionType description",
             "Details of groups that are intended to benefit from the activity",
         ),
     )
     OTHER = (
         4,
         pgettext_lazy(
-            "IATI codelist DescriptionType description",
+            "DescriptionType description",
             "For miscellaneous use. A further classification or breakdown may be included in the narrative",
         ),
     )

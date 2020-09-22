@@ -9,61 +9,59 @@ class FinanceTypeCategory(models.IntegerChoices):
 
     NON_FLOW_ITEMS = (
         0,
-        pgettext_lazy("IATI codelist FinanceType-category", "NON FLOW ITEMS"),
+        pgettext_lazy("FinanceType-category", "NON FLOW ITEMS"),
     )
     GRANTS = (
         100,
-        pgettext_lazy("IATI codelist FinanceType-category", "GRANTS"),
+        pgettext_lazy("FinanceType-category", "GRANTS"),
     )
     GUARANTEES_AND_OTHER_UNFUNDED_CONTINGENT_LIABILITIES = (
         1000,
         pgettext_lazy(
-            "IATI codelist FinanceType-category",
+            "FinanceType-category",
             "GUARANTEES AND OTHER UNFUNDED CONTINGENT LIABILITIES",
         ),
     )
     INTEREST_SUBSIDY = (
         200,
-        pgettext_lazy("IATI codelist FinanceType-category", "INTEREST SUBSIDY"),
+        pgettext_lazy("FinanceType-category", "INTEREST SUBSIDY"),
     )
     CAPITAL_SUBSCRIPTION = (
         300,
-        pgettext_lazy("IATI codelist FinanceType-category", "CAPITAL SUBSCRIPTION"),
+        pgettext_lazy("FinanceType-category", "CAPITAL SUBSCRIPTION"),
     )
     LOAN = (
         400,
-        pgettext_lazy("IATI codelist FinanceType-category", "LOAN"),
+        pgettext_lazy("FinanceType-category", "LOAN"),
     )
     DEBT_INSTRUMENTS = (
         420,
-        pgettext_lazy("IATI codelist FinanceType-category", "DEBT INSTRUMENTS"),
+        pgettext_lazy("FinanceType-category", "DEBT INSTRUMENTS"),
     )
     MEZZANINE_FINANCE_INSTRUMENTS = (
         430,
-        pgettext_lazy(
-            "IATI codelist FinanceType-category", "MEZZANINE FINANCE INSTRUMENTS"
-        ),
+        pgettext_lazy("FinanceType-category", "MEZZANINE FINANCE INSTRUMENTS"),
     )
     EQUITY_AND_SHARES_IN_COLLECTIVE_INVESTMENT_VEHICLES = (
         500,
         pgettext_lazy(
-            "IATI codelist FinanceType-category",
+            "FinanceType-category",
             "EQUITY  AND SHARES IN COLLECTIVE INVESTMENT VEHICLES",
         ),
     )
     DEBT_RELIEF = (
         600,
-        pgettext_lazy("IATI codelist FinanceType-category", "DEBT RELIEF"),
+        pgettext_lazy("FinanceType-category", "DEBT RELIEF"),
     )
     INVESTMENT = (
         700,
-        pgettext_lazy("IATI codelist FinanceType-category", "INVESTMENT"),
+        pgettext_lazy("FinanceType-category", "INVESTMENT"),
     )
     BONDS = (
         800,
-        pgettext_lazy("IATI codelist FinanceType-category", "BONDS"),
+        pgettext_lazy("FinanceType-category", "BONDS"),
     )
     OTHER_SECURITIES_CLAIMS = (
         900,
-        pgettext_lazy("IATI codelist FinanceType-category", "OTHER SECURITIES/CLAIMS"),
+        pgettext_lazy("FinanceType-category", "OTHER SECURITIES/CLAIMS"),
     )

@@ -9,9 +9,9 @@ class DocumentCategoryCategory(models.TextChoices):
 
     ACTIVITY_LEVEL = (
         "A",
-        pgettext_lazy("IATI codelist DocumentCategory-category", "Activity Level"),
+        pgettext_lazy("DocumentCategory-category", "Activity Level"),
     )
     ORGANISATION_LEVEL = (
         "B",
-        pgettext_lazy("IATI codelist DocumentCategory-category", "Organisation Level"),
+        pgettext_lazy("DocumentCategory-category", "Organisation Level"),
     )

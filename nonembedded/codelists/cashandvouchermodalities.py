@@ -9,9 +9,9 @@ class CashandVoucherModalities(models.IntegerChoices):
 
     CASH_TRANSFER = (
         1,
-        pgettext_lazy("IATI codelist CashandVoucherModalities", "Cash Transfer"),
+        pgettext_lazy("CashandVoucherModalities", "Cash Transfer"),
     )
     VOUCHER = (
         2,
-        pgettext_lazy("IATI codelist CashandVoucherModalities", "Voucher"),
+        pgettext_lazy("CashandVoucherModalities", "Voucher"),
     )

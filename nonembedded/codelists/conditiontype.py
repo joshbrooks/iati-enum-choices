@@ -9,13 +9,13 @@ class ConditionType(models.IntegerChoices):
 
     POLICY = (
         1,
-        pgettext_lazy("IATI codelist ConditionType", "Policy"),
+        pgettext_lazy("ConditionType", "Policy"),
     )
     PERFORMANCE = (
         2,
-        pgettext_lazy("IATI codelist ConditionType", "Performance"),
+        pgettext_lazy("ConditionType", "Performance"),
     )
     FIDUCIARY = (
         3,
-        pgettext_lazy("IATI codelist ConditionType", "Fiduciary"),
+        pgettext_lazy("ConditionType", "Fiduciary"),
     )

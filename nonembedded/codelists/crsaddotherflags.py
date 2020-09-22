@@ -9,19 +9,17 @@ class CRSAddOtherFlags(models.IntegerChoices):
 
     FREE_STANDING_TECHNICAL_COOPERATION = (
         1,
-        pgettext_lazy(
-            "IATI codelist CRSAddOtherFlags", "Free standing technical cooperation"
-        ),
+        pgettext_lazy("CRSAddOtherFlags", "Free standing technical cooperation"),
     )
     PROGRAMME_BASED_APPROACH = (
         2,
-        pgettext_lazy("IATI codelist CRSAddOtherFlags", "Programme-based approach"),
+        pgettext_lazy("CRSAddOtherFlags", "Programme-based approach"),
     )
     INVESTMENT_PROJECT = (
         3,
-        pgettext_lazy("IATI codelist CRSAddOtherFlags", "Investment project"),
+        pgettext_lazy("CRSAddOtherFlags", "Investment project"),
     )
     ASSOCIATED_FINANCING = (
         4,
-        pgettext_lazy("IATI codelist CRSAddOtherFlags", "Associated financing"),
+        pgettext_lazy("CRSAddOtherFlags", "Associated financing"),
     )

@@ -6,14 +6,14 @@ class GeographicLocationReachDescription(models.IntegerChoices):
     ACTIVITY = (
         1,
         pgettext_lazy(
-            "IATI codelist GeographicLocationReach description",
+            "GeographicLocationReach description",
             "The location specifies where the activity is carried out",
         ),
     )
     INTENDED_BENEFICIARIES = (
         2,
         pgettext_lazy(
-            "IATI codelist GeographicLocationReach description",
+            "GeographicLocationReach description",
             "The location specifies where the intended beneficiaries of the activity live",
         ),
     )

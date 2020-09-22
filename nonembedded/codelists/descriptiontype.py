@@ -9,17 +9,17 @@ class DescriptionType(models.IntegerChoices):
 
     GENERAL = (
         1,
-        pgettext_lazy("IATI codelist DescriptionType", "General"),
+        pgettext_lazy("DescriptionType", "General"),
     )
     OBJECTIVES = (
         2,
-        pgettext_lazy("IATI codelist DescriptionType", "Objectives"),
+        pgettext_lazy("DescriptionType", "Objectives"),
     )
     TARGET_GROUPS = (
         3,
-        pgettext_lazy("IATI codelist DescriptionType", "Target Groups"),
+        pgettext_lazy("DescriptionType", "Target Groups"),
     )
     OTHER = (
         4,
-        pgettext_lazy("IATI codelist DescriptionType", "Other"),
+        pgettext_lazy("DescriptionType", "Other"),
     )

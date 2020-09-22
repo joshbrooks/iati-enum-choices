@@ -9,17 +9,17 @@ class OrganisationRole(models.IntegerChoices):
 
     FUNDING = (
         1,
-        pgettext_lazy("IATI codelist OrganisationRole", "Funding"),
+        pgettext_lazy("OrganisationRole", "Funding"),
     )
     ACCOUNTABLE = (
         2,
-        pgettext_lazy("IATI codelist OrganisationRole", "Accountable"),
+        pgettext_lazy("OrganisationRole", "Accountable"),
     )
     EXTENDING = (
         3,
-        pgettext_lazy("IATI codelist OrganisationRole", "Extending"),
+        pgettext_lazy("OrganisationRole", "Extending"),
     )
     IMPLEMENTING = (
         4,
-        pgettext_lazy("IATI codelist OrganisationRole", "Implementing"),
+        pgettext_lazy("OrganisationRole", "Implementing"),
     )

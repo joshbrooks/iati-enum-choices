@@ -9,13 +9,13 @@ class BudgetNotProvided(models.IntegerChoices):
 
     COMMERCIAL_RESTRICTIONS = (
         1,
-        pgettext_lazy("IATI codelist BudgetNotProvided", "Commercial Restrictions"),
+        pgettext_lazy("BudgetNotProvided", "Commercial Restrictions"),
     )
     LEGAL_RESTRICTIONS = (
         2,
-        pgettext_lazy("IATI codelist BudgetNotProvided", "Legal Restrictions"),
+        pgettext_lazy("BudgetNotProvided", "Legal Restrictions"),
     )
     RAPID_ONSET_EMERGENCY = (
         3,
-        pgettext_lazy("IATI codelist BudgetNotProvided", "Rapid Onset Emergency"),
+        pgettext_lazy("BudgetNotProvided", "Rapid Onset Emergency"),
     )

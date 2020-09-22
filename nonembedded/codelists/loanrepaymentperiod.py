@@ -9,17 +9,17 @@ class LoanRepaymentPeriod(models.IntegerChoices):
 
     ANNUAL = (
         1,
-        pgettext_lazy("IATI codelist LoanRepaymentPeriod", "Annual"),
+        pgettext_lazy("LoanRepaymentPeriod", "Annual"),
     )
     SEMI_ANNUAL = (
         2,
-        pgettext_lazy("IATI codelist LoanRepaymentPeriod", "Semi-annual"),
+        pgettext_lazy("LoanRepaymentPeriod", "Semi-annual"),
     )
     QUARTERLY = (
         4,
-        pgettext_lazy("IATI codelist LoanRepaymentPeriod", "Quarterly"),
+        pgettext_lazy("LoanRepaymentPeriod", "Quarterly"),
     )
     MONTHLY = (
         12,
-        pgettext_lazy("IATI codelist LoanRepaymentPeriod", "Monthly"),
+        pgettext_lazy("LoanRepaymentPeriod", "Monthly"),
     )

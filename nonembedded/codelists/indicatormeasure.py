@@ -9,21 +9,21 @@ class IndicatorMeasure(models.IntegerChoices):
 
     UNIT = (
         1,
-        pgettext_lazy("IATI codelist IndicatorMeasure", "Unit"),
+        pgettext_lazy("IndicatorMeasure", "Unit"),
     )
     PERCENTAGE = (
         2,
-        pgettext_lazy("IATI codelist IndicatorMeasure", "Percentage"),
+        pgettext_lazy("IndicatorMeasure", "Percentage"),
     )
     NOMINAL = (
         3,
-        pgettext_lazy("IATI codelist IndicatorMeasure", "Nominal"),
+        pgettext_lazy("IndicatorMeasure", "Nominal"),
     )
     ORDINAL = (
         4,
-        pgettext_lazy("IATI codelist IndicatorMeasure", "Ordinal"),
+        pgettext_lazy("IndicatorMeasure", "Ordinal"),
     )
     QUALITATIVE = (
         5,
-        pgettext_lazy("IATI codelist IndicatorMeasure", "Qualitative"),
+        pgettext_lazy("IndicatorMeasure", "Qualitative"),
     )
