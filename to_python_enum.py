@@ -119,7 +119,7 @@ class XmlElementAsEnum:
     def class_name(self):
         return self._class_name()
 
-    def class_docstring(self) -> str:
+    def class_docstring(self) -> Optional[str]:
         try:
             s = self.root.find("metadata/description/narrative").text.replace(
                 "\n", "\n    "
@@ -206,52 +206,81 @@ def main(filename: str):
 
 
 if __name__ == "__main__":
+    """
+    This is very rough code setup for a particular dev environment
+    However since it "works" and it's only required once I'm leaving it as
+    an exercise for the reader to improves
+    TODO: Make this use command line attribs instead of hardcoding everything
+    DRY it up
+    """
+
+    # The version of IATI code checked out to the repo listed below
+    # Change this to 'v201' 'v202' 'v203' for importing Embedded codelists
+    version = "master"
+
     # Directory to IATI repository
+    # Generate paths to the Codelists and the NonEmbedded codelists
     IATI = pathlib.Path(
-        "/media/josh/beb0eb0a-f1f5-4ef5-b5a4-b2a532d8db91/josh/github/IATI/"
+        # "/media/josh/beb0eb0a-f1f5-4ef5-b5a4-b2a532d8db91/josh/github/IATI/"  # This is when I'm on 20.04 install
+        "/home/josh/github/IATI"  # This is on 19.04 install
     )
-    nonembedded = IATI / "IATI-Codelists-NonEmbedded" / "xml"
-    embedded = IATI / "IATI-Standard-SSOT" / "IATI-Codelists" / "xml"
 
-    for filename in os.listdir(nonembedded):
-        content = XmlElementAsEnum(nonembedded / filename).to_classes()
-        with open(
-            pathlib.Path(".") / "nonembedded" / "codelists" / output_filepath(filename),
-            "w",
-        ) as outfile:
-            outfile.write("from django.db import models\n")
-            outfile.write("from django.utils.translation import pgettext_lazy\n")
-            outfile.write("\n".join([n for n in content if n is not False]))
+    imports = "from django.db import models\nfrom django.utils.translation import pgettext_lazy\n"
 
-    for filename in os.listdir(nonembedded):
-        content = XmlElementAsDescriptionEnum(nonembedded / filename).to_classes()
-        with open(
-            pathlib.Path(".")
-            / "nonembedded"
-            / "descriptions"
-            / output_filepath(filename),
-            "w",
-        ) as outfile:
-            outfile.write("from django.db import models\n")
-            outfile.write("from django.utils.translation import pgettext_lazy\n")
-            outfile.write("\n".join([n for n in content if n is not False]))
+    def import_nonembedded():
+        nonembedded = IATI / "IATI-Codelists-NonEmbedded" / "xml"
+        if version != "master":
+            return
+        for filename in os.listdir(nonembedded):
+            content = XmlElementAsEnum(nonembedded / filename).to_classes()
+            with open(
+                pathlib.Path(".")
+                / "nonembedded"
+                / "codelists"
+                / output_filepath(filename),
+                "w",
+            ) as outfile:
+                outfile.write(imports)
+                outfile.write("\n".join([n for n in content if n is not False]))
 
-    for filename in os.listdir(embedded):
-        content = XmlElementAsEnum(embedded / filename).to_classes()
-        with open(
-            pathlib.Path(".") / "embedded" / "codelists" / output_filepath(filename),
-            "w",
-        ) as outfile:
-            outfile.write("from django.db import models\n")
-            outfile.write("from django.utils.translation import pgettext_lazy\n")
-            outfile.write("\n".join([n for n in content if n is not False]))
+        for filename in os.listdir(nonembedded):
+            content = XmlElementAsDescriptionEnum(nonembedded / filename).to_classes()
+            with open(
+                pathlib.Path(".")
+                / "nonembedded"
+                / "descriptions"
+                / output_filepath(filename),
+                "w",
+            ) as outfile:
+                outfile.write(imports)
+                outfile.write("\n".join([n for n in content if n is not False]))
 
-    for filename in os.listdir(embedded):
-        content = XmlElementAsDescriptionEnum(embedded / filename).to_classes()
-        with open(
-            pathlib.Path(".") / "embedded" / "descriptions" / output_filepath(filename),
-            "w",
-        ) as outfile:
-            outfile.write("from django.db import models\n")
-            outfile.write("from django.utils.translation import pgettext_lazy\n")
-            outfile.write("\n".join([n for n in content if n is not False]))
+    def import_embedded():
+        if version not in ["v201", "v202", "v203"]:
+            return
+        embedded = IATI / "IATI-Standard-SSOT" / "IATI-Codelists" / "xml"
+        for filename in os.listdir(embedded):
+            content = XmlElementAsEnum(embedded / filename).to_classes()
+            with open(
+                pathlib.Path(".")
+                / "embedded"
+                / "codelists"
+                / version
+                / output_filepath(filename),
+                "w",
+            ) as outfile:
+                outfile.write(imports)
+                outfile.write("\n".join([n for n in content if n is not False]))
+
+        for filename in os.listdir(embedded):
+            content = XmlElementAsDescriptionEnum(embedded / filename).to_classes()
+            with open(
+                pathlib.Path(".")
+                / "embedded"
+                / "descriptions"
+                / version
+                / output_filepath(filename),
+                "w",
+            ) as outfile:
+                outfile.write(imports)
+                outfile.write("\n".join([n for n in content if n is not False]))
